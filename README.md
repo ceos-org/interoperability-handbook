@@ -1,7 +1,8 @@
 # interoperability-handbook
 Version 2 of the CEOS Interoperability Handbook
 
-Objective
+Objective:
+
 CEOS Interoperability Handbook Version 2.0 should provide guidance to the organizations for development of Interoperable Data and Services and help them in measuring their maturity level
 
 Factors
