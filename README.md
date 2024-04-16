@@ -5,7 +5,8 @@ Objective:
 
 CEOS Interoperability Handbook Version 2.0 should provide guidance to the organizations for development of Interoperable Data and Services and help them in measuring their maturity level
 
-Factors
+Interoperability Factors
+
 1) Vocabulary (Semantics)
 2) Architecture
 3) Interface (Accessibility)
