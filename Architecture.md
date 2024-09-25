@@ -1,3 +1,4 @@
+[Previous](Vocabulary.md) | [Table of contents](README.md) | [Next](Interface.md)
 ***
 # **Architecture** 
 
@@ -33,4 +34,4 @@ Data Cubes provide capability to pack a collection of data and provide capabilit
 
 ***
 ***
-[NEXT](Interface.md)
+[Previous](Vocabulary.md) | [Table of contents](README.md) | [Next](Interface.md)
