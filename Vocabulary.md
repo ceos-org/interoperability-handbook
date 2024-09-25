@@ -6,8 +6,9 @@ Vocabulary also termed as semantics helps in providing a consistent terminology 
 
 ## Vocabulary Recommendations
 
-| VOCAB\#1 | Thesaurus should be the preferred way of implementing vocabulary in an organization. Use ISO 25964-1, 2011 for developing Thesaurus and ISO 25964-2, 2013 to ensure Interoperability with other vocabularies |
+| **ID** | **Recommendations** |
 | :---- | :---- |
+| **VOCAB\#1** | Thesaurus should be the preferred way of implementing vocabulary in an organization. Use ISO 25964-1, 2011 for developing Thesaurus and ISO 25964-2, 2013 to ensure Interoperability with other vocabularies |
 | **VOCAB\#2** | CEOS Common Online Dictionary can be used as a reference for Vocabulary implementation  |
 | **VOCAB\#3** | Use existing vocabulary and enrich it by involving a wider community with a balance of centralized and distributed control. |
 | **VOCAB\#4** | The terms used in vocabulary should be consistent and divided into classes such as Base, Core, Controversial and High Impact. The ‘Base Terms’ should have cross community agreement and should not have circular or ambiguous definitions. The ‘Core Term’ should be using the ‘Base Term’ consistently and can be allowed to have minor tweaks with approval from the identified committee. The ‘Controversial Term’ should have qualifiers attached to them with links to discussions, which led to the association of the qualifier. The ‘High Impact Term’ should be approved by a specialist committee and should be linked to a document providing details of the term. |
