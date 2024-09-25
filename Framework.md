@@ -3,9 +3,9 @@
 #    **Interoperability Framework**
 
 In order to guide the overall Interoperability related activities within CEOS, a framework was proposed and developed. Five areas have been identified as critical ‘factors’ needed to move towards greater interoperability of EO data and services.. Each factor has several components and are summarized as below.
-
-| Vocabulary (Semantics) | The (narrow) semantic aspect refers to the naming and meaning of data elements. It includes developing, harmonizing, and maintaining vocabularies and schemata supporting provision, exchange, and analysis of data, and ensures that terms and data elements are understood in the same way by all communicating parties |
+| Factor | Description |
 | :---- | :---- |
+| **Vocabulary (Semantics)** | The (narrow) semantic aspect refers to the naming and meaning of data elements. It includes developing, harmonizing, and maintaining vocabularies and schemata supporting provision, exchange, and analysis of data, and ensures that terms and data elements are understood in the same way by all communicating parties |
 | **Architecture** | Architecture describes the organizational structure of concepts, processes, and assets, including data and workflows. It comprises of the structural aspects of models and standards that govern the collection, storage, arrangement, integration, and use of data |
 | **Interface (Accessibility)** | Data exchange protocols, and application interfaces. These provide the means necessary to access and exchange data. |
 | **Quality** | References are data and schemes that are used as benchmarks for (observational) data comparison or analysis. This could include instances such as geographic locations, product numbers, or official (authoritative) data and statistics. |
