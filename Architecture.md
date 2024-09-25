@@ -1,3 +1,4 @@
+***
 # **Architecture** 
 
 Architecture plays a very important role in enabling interoperability. It describes the organizational structure of concepts, processes, and assets, including data and workflows. It comprises structural aspects of models and standards that govern the collection, storage, arrangement, integration, and use of data, based on which interoperability of data and services are built on.
@@ -29,3 +30,7 @@ Data Cubes provide capability to pack a collection of data and provide capabilit
 | **DCUBE\#5** | Data cubes should be able to publish the supported pre-built analysis functions   |
 | **DCUBE\#6** | Data Cubes should provide REST API and OGC web services based access for easy integration of end user applications |
 
+
+***
+***
+[NEXT](Interface.md)
