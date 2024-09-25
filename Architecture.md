@@ -12,8 +12,9 @@ Dissemination
 
 Analysis Ready Data (ARD) are starting point for interoperability in analysis and hence Data Providers are encouraged to develop ARD
 
-| ARD\#1 | CEOS ARD Framework should be used as a starting point for development of Analysis Ready Data |
+| **ID** | **Recommendations** |
 | :---- | :---- |
+| **ARD\#1** | CEOS ARD Framework should be used as a starting point for development of Analysis Ready Data |
 | **ARD\#2** | CEOS Product Family Specifications (PFS) should be used for development of ARD products. In case if a new ARD is to be developed, use PFS template and submit to CEOS for approval  |
 | **ARD\#3** | CEOS ARD compliance of the product requires two level of assessments, first is self assessment (CEOS ARD Self Assessment Guide)  and second is peer review by CEOS Experts |
 | **ARD\#4** |  |
@@ -22,9 +23,9 @@ Analysis Ready Data (ARD) are starting point for interoperability in analysis an
 ## Datacubes
 
 Data Cubes provide capability to pack a collection of data and provide capability for fast access and analysis 
-
-| DCUBE\#1 | The CEOS supported Open Data Cube can be taken as a reference for Data cube implementation |
+| **ID** | **Recommendations** |
 | :---- | :---- |
+| **DCUBE\#1** | The CEOS supported Open Data Cube can be taken as a reference for Data cube implementation |
 | **DCUBE\#2** | Data cubes should support spatial and/or temporal dimensions and capability for publishing available variables/properties as metadata |
 | **DCUBE\#3** | Data cubes should abstract the underlying data storage architecture to support hybrid data cubes and interoperability among different types of data cubes |
 | **DCUBE\#4** | Data cube may contain raw sensor data, analysis ready data or decision ready information. Analysis Reay Data  should be preferred to avoid pre-processing overheads and fast analysis |
