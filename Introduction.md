@@ -7,7 +7,7 @@ The **Committee for Earth Observation Satellites (CEOS)** during the last three 
 
 Interoperability of data and services in the EO domain is essential due to the importance of EO  data in a wide range of applications, including agriculture, climate change monitoring, disaster management, and urban planning, as well as the increasing cooperation of public and commercial space actors worldwide. In order to streamline such collaborative efforts a need for Interoperability for data and services was strongly felt and **CEOS Interoperability Handbook 1.0** was developed in the year 2008\. With the increase in number of EO satellites and associated complex sensors providing ever growing volumes of data catering to complex user requirements, a need was felt to re-look on the interoperability of data services in the current context and development of **CEOS Interoperability Handbook 2.0** was proposed.
 
-**CEOS Interoperability Framework** was developed to guide the development of CEOS Interoperability Handbook for EO data services. Different entities within CEOS contributed towards development of CEOS Interoperability Handbook 2.0. CEOS **Working Group on Information Systems and Services (WGISS)** lead for overall coordination and development of this handbook.
+**CEOS Interoperability Framework** was developed to guide the development of CEOS Interoperability Handbook for EO data services. Different entities within CEOS contributed towards development of CEOS Interoperability Handbook 2.0. with CEOS **Working Group on Information Systems and Services (WGISS)** as a lead for overall coordination and development of this handbook.
 
 ## Purpose 
 
