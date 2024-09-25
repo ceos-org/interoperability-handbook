@@ -7,12 +7,12 @@ Enhancing Interoperability of data and services between different Earth Observat
 
 ## Table of Contents
 - [**1. Introduction**](Introduction.md)
-- [**2. Interoperability Framework **](Framework.md)
-- [**3. Vocabulary (Semantics) **](Vocabulary.md)
-- [**4. Architecture **](Architecture.md)
-- [**5. Interface **](Interface.md)
-- [**6. Quality **](Quality.md)
-- [**7. Policy **](Policy.md)
+- [**2. Interoperability Framework**](Framework.md)
+- [**3. Vocabulary (Semantics)**](Vocabulary.md)
+- [**4. Architecture**](Architecture.md)
+- [**5. Interface**](Interface.md)
+- [**6. Quality**](Quality.md)
+- [**7. Policy**](Policy.md)
 
 
 
