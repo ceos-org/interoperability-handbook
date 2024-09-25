@@ -1,3 +1,4 @@
+***
 #    **Interoperability Framework**
 
 In order to guide the overall Interoperability related activities within CEOS, a framework was proposed and developed. Five areas have been identified as critical ‘factors’ needed to move towards greater interoperability of EO data and services.. Each factor has several components and are summarized as below.
@@ -13,4 +14,5 @@ In order to guide the overall Interoperability related activities within CEOS, a
 The factors together will cover all aspects that play a role in enabling interoperability of data and services. Design criteria for the factors are cohesion, independence, and modularity. Cohesion (internally) is accomplished by grouping them according to specific knowledge and competences required to tackle the respective issues. This ‘separation of concerns’ known from system engineering should ensure that the individual aspects are addressed in the most adequate way by experts of the respective fields without having to deal with the complexity of the entire system all the time. Independence means that specific (fundamental) aspects (e.g. data formats) should be proprietary to one factor. In this way parallel or duplicate solution development can be avoided. Modularity must ensure that all factors together build a functional ensemble in which it is clear which covers what and how they all work together.
 
 The interoperability factors assemble certain, hopefully related, competencies that should be dwelled on whenever interoperability is desired or required in a project or process. Most CEOS activities are targeted at enhancing interoperability, they all should scrutinize their work with respect to the framework factors.
-
+***
+[NEXT](Vocabulary.md)
