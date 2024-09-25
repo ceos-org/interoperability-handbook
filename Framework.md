@@ -1,3 +1,4 @@
+[Previous](Framework.md) | [Table of contents](README.md) | [Next](Vocabulary.md)
 ***
 #    **Interoperability Framework**
 
@@ -15,4 +16,4 @@ The factors together will cover all aspects that play a role in enabling interop
 
 The interoperability factors assemble certain, hopefully related, competencies that should be dwelled on whenever interoperability is desired or required in a project or process. Most CEOS activities are targeted at enhancing interoperability, they all should scrutinize their work with respect to the framework factors.
 ***
-[NEXT](Vocabulary.md)
+[Previous](Framework.md) | [Table of contents](README.md) | [Next](Vocabulary.md)
