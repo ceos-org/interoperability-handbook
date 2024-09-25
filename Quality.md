@@ -1,3 +1,4 @@
+[Previous](Interface.md) | [Table of contents](README.md) | [Next](Policy.md)
 ***
 # **Quality**
 
@@ -18,5 +19,4 @@ Calibration helps in quantitatively defining a sensor response to known and cont
 
 
 ***
-[NEXT](Policy.md)
-
+[Previous](Interface.md) | [Table of contents](README.md) | [Next](Policy.md)
