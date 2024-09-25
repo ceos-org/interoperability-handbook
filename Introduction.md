@@ -1,3 +1,5 @@
+[Previous](README.md) | [Table of contents](README.md) | [Next](Framework.md)
+
 ***
 # **Introduction** 
 
@@ -24,4 +26,4 @@ CEOS Interoperability Handbook Version 2.0 intends to provide guidance to the or
 This Handbook is intended to be used as a guide by different **Space Agencies, New Space Startups**  and **Commercial Data and Service Providers** to improve interoperability of their data and services.
 
 ***
-[NEXT](Framework.md)
+[Previous](README.md) | [Table of contents](README.md) | [Next](Framework.md)
