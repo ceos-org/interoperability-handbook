@@ -1,7 +1,8 @@
+[Previous](Architecture.md) | [Table of contents](README.md) | [Next](Quality.md)
 ***
 # **Interface (Accessibility)**
 
 
 
 ***
-[NEXT](Quality.md)
+[Previous](Architecture.md) | [Table of contents](README.md) | [Next](Quality.md)
