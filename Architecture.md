@@ -12,6 +12,7 @@ Dissemination
 
 Analysis Ready Data (ARD) are starting point for interoperability in analysis and hence Data Providers are encouraged to develop ARD
 
+## ARD Recommendations
 | **ID** | **Recommendations** |
 | :---- | :---- |
 | **ARD\#1** | CEOS ARD Framework should be used as a starting point for development of Analysis Ready Data |
@@ -20,9 +21,10 @@ Analysis Ready Data (ARD) are starting point for interoperability in analysis an
 | **ARD\#4** |  |
 | **ARD\#5** |  |
 
-## Datacubes
+## Datacube
 
-Data Cubes provide capability to pack a collection of data and provide capability for fast access and analysis 
+Data Cube provide capability to pack a collection of data and provide capability for fast access and analysis 
+## Datacube Recommendations
 | **ID** | **Recommendations** |
 | :---- | :---- |
 | **DCUBE\#1** | The CEOS supported Open Data Cube can be taken as a reference for Data cube implementation |
