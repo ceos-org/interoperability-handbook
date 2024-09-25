@@ -1,3 +1,4 @@
+[Previous](Framework.md) | [Table of contents](README.md) | [Next](Architecture.md)
 ***
 # **Vocabulary (Semantics)**
 
@@ -16,4 +17,4 @@ Vocabulary also termed as semantics helps in providing a consistent terminology 
 | **VOCAB\#8** | The vocabulary should have capability to record public comment and discussion and should provide options for adding new terms. |
 
 ***
-[NEXT](Architecture.md)
+[Previous](Framework.md) | [Table of contents](README.md) | [Next](Architecture.md)
