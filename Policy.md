@@ -1,6 +1,7 @@
+[Previous](Quality.md) | [Table of contents](README.md) | [Next](README.md)
 ***
  # **Policy**
 
 
 ***
-[Back to Top](README.md)
+[Previous](Quality.md) | [Table of contents](README.md) | [Next](README.md)
