@@ -1,11 +1,9 @@
 
 ***
+![](images/CEOS-logo.png)
+
 # **CEOS Interoperability Handbook 2.0**
 Enhancing Interoperability of data and services between different Earth Observation stakeholders
-
-![logo](images/ceos.png)
-
-**2024**
 
 ## Table of Contents
 - [**1. Introduction**](Introduction.md)
