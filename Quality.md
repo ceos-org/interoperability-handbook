@@ -7,6 +7,7 @@ Quality ensures long term  confidence in the accuracy and consistency of Earth O
 ## Calibration and Validation 
 
 Calibration helps in quantitatively defining a sensor response to known and controlled signal inputs. Validation is the process of assessing the quality of the data
+## Cal/Val Recommendations
 | **ID** | **Recommendations** |
 | :---- | :---- |
 | **CALVAL\#1** | CEOS CAL/VAL portal can be used as a reference site for insuring interoperability for calibration and validation |
