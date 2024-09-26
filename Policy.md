@@ -3,7 +3,7 @@
  # **Policy**
 Policy is a statement of intent, which provides guidance for implementation of processes and procedures in an organization. Policies can be at organization/local level or at the government/center level and may have legal bindings. The government level policies take precedence over the organization policies. Institutional mechanism is required to ensure compliance of policies in an organization. The policies are the guiding document for decision making processes in an organization. 
 
-Policy is one of the most important factors and forms the basis of interoperability. Following are policy recommendations for  interoperability.
+Policy is one of the most important factors and forms the basis of interoperability. Following are interoperability recommendations for the policy factor.
 
 | ID | Recommendations |
 | :---- | :---- |
