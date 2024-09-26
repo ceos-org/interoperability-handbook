@@ -5,7 +5,7 @@
 # **CEOS Interoperability Handbook 2.0**
 Enhancing Interoperability of data and services between different Earth Observation stakeholders
 
-## (Please Note this work is under Development, please use **Discussion** section to provide your comments and feedback)
+## (Please Note this work is under Development, please use [Discussion](https://github.com/ceos-org/interoperability-handbook/discussions) section to provide your comments and feedback)
 
 ## Table of Contents
 - [**1. Introduction**](Introduction.md)
