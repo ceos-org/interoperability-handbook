@@ -2,7 +2,11 @@
 ***
 #    **Interoperability Framework**
 
-In order to guide the overall Interoperability related activities within CEOS, a framework was proposed and developed. Five areas have been identified as critical ‘factors’ needed to move towards greater interoperability of EO data and services.. Each factor has several components and are summarized as below.
+In order to guide the overall Interoperability related activities within CEOS, a framework was proposed and developed. Five areas have been identified as critical ‘factors’ needed to move towards greater interoperability of EO data and services.
+
+![](images/interoperability-factors.png)
+
+Each factor has several components and are summarized as below.
 | Factor | Description |
 | :---- | :---- |
 | **Vocabulary (Semantics)** | The (narrow) semantic aspect refers to the naming and meaning of data elements. It includes developing, harmonizing, and maintaining vocabularies and schemata supporting provision, exchange, and analysis of data, and ensures that terms and data elements are understood in the same way by all communicating parties |
