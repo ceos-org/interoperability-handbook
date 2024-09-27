@@ -8,8 +8,20 @@ Archival
 Analysis  
 Dissemination
 
-## Analysis Ready Data 
+## Cloud Computing
+The Cloud computing architecture supports standardized API, protocols and provides capability for  publishing resources as services, this enables seamless integration of data and services irrespective of the underlying architecture and location
 
+| **ID** | **Recommendations** |
+| :---- | :---- |
+| **CLOUD\#1** | The data to be shared through cloud should be converted to cloud optimized formats for faster and interoperable access across multiple applications  |
+| **CLOUD\#2** |  |
+| **CLOUD\#3** |  |
+| **CLOUD\#4** |  |
+| **CLOUD\#5** |   |
+| **CLOUD\#6** |  |
+
+
+## Analysis Ready Data 
 Analysis Ready Data (ARD) are starting point for interoperability in analysis and hence Data Providers are encouraged to develop ARD
 
 ## ARD Recommendations
@@ -22,7 +34,6 @@ Analysis Ready Data (ARD) are starting point for interoperability in analysis an
 | **ARD\#5** |  |
 
 ## Datacube
-
 Data Cube provide capability to pack a collection of data and provide capability for fast access and analysis 
 ## Datacube Recommendations
 | **ID** | **Recommendations** |
@@ -33,6 +44,7 @@ Data Cube provide capability to pack a collection of data and provide capability
 | **DCUBE\#4** | Data cube may contain raw sensor data, analysis ready data or decision ready information. Analysis Reay Data  should be preferred to avoid pre-processing overheads and fast analysis |
 | **DCUBE\#5** | Data cubes should be able to publish the supported pre-built analysis functions   |
 | **DCUBE\#6** | Data Cubes should provide REST API and OGC web services based access for easy integration of end user applications |
+
 
 
 ***
