@@ -4,6 +4,17 @@
 
 Architecture plays a very important role in enabling interoperability. It describes the organizational structure of concepts, processes, and assets, including data and workflows. It comprises structural aspects of models and standards that govern the collection, storage, arrangement, integration, and use of data, based on which interoperability of data and services are built on.
 
+## Data Archival and Preservation Architecture
+
+| **ID** | **Recommendations** |
+| :---- | :---- |
+| **DSTOR\#1** |  |
+| **DSTOR\#2** |  |
+| **DSTOR\#3** |  |
+| **DSTOR\#4** |  |
+| **DSTOR\#5** |  |
+| **DSTOR\#6** |  |
+
 ## Cloud Computing Architecture
 The Cloud computing architecture supports standardized API, protocols and provides capability for  publishing resources as services, this enables seamless integration of data and services irrespective of the underlying architecture and location
 
