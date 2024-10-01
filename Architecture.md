@@ -4,8 +4,8 @@
 
 Architecture plays a very important role in enabling interoperability. It describes the organizational structure of concepts, processes, and assets, including data and workflows. It comprises structural aspects of models and standards that govern the collection, storage, arrangement, integration, and use of data, based on which interoperability of data and services are built on.
 
-## Data Archival and Preservation Architecture
-
+## Data Architecture
+This section will talk about Archival and preservation ..... 
 | **ID** | **Recommendations** |
 | :---- | :---- |
 | **DSTOR\#1** |  |
@@ -27,7 +27,7 @@ The Cloud computing architecture supports standardized API, protocols and provid
 | **CLOUD\#5** |   |
 | **CLOUD\#6** |  |
 
-## Data Analytics Architecture
+## Analytics Architecture
 Data Analytics architecture in an organization provides capability to store, analyze and visualize the data. As a typical Earth Observation data analytics require a large volume of time series data and hence it is necessary to support interoperability in the analytics architecture using following recommendations.
  
 ## Analysis Ready Data 
