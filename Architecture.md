@@ -4,6 +4,11 @@
 
 Architecture plays a very important role in enabling interoperability. It describes the organizational structure of concepts, processes, and assets, including data and workflows. It comprises structural aspects of models and standards that govern the collection, storage, arrangement, integration, and use of data, based on which interoperability of data and services are built on.
 
+Following Architecture has impact on Interoperbility
+1) Data Architecture
+2) Cloud Computing Architecture
+3) Data Analytics Architecture 
+
 ## Data Architecture
 This section will talk about Archival and preservation ..... 
 | **ID** | **Recommendations** |
