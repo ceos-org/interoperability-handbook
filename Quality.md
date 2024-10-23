@@ -2,11 +2,12 @@
 ***
 # **Quality**
 
-Quality ensures long term  confidence in the accuracy and consistency of Earth Observation data and products and to provide a forum for the exchange of information about calibration and validation, including the coordination of cooperative activities. 
+Quality informs users of the trustworthiness of Earth Observation data and products and to provides a forum for the exchange of information about calibration and validation, including the coordination of cooperative activities.
 
 ## Calibration and Validation 
 
-Calibration helps in quantitatively defining a sensor response to known and controlled signal inputs. Validation is the process of assessing the quality of the data
+Calibration is the process of quantitatively defining a system’s response to known and controlled signal inputs. Validation, on the other hand, is the process of assessing, by independent means, the quality of the data products derived from those system outputs.
+
 ## Cal/Val Recommendations
 | **ID** | **Recommendations** |
 | :---- | :---- |
