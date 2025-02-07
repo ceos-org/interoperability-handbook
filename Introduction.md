@@ -1,7 +1,8 @@
+# Introduction
+
 [Previous](README.md) | [Table of contents](README.md) | [Next](Framework.md)
 
 ***
-# **Introduction** 
 
 The **Committee for Earth Observation Satellites (CEOS)** during the last three decades has significantly contributed to the advancement of space-based Earth Observation (EO) community efforts. [CEOS Agencies](https://ceos.org/agencies/) communicate, collaborate, and exchange information on EO activities, spurring useful partnerships. CEOS Agencies work together to launch multi-agency collaborative missions, and such cooperative efforts have highly benefited users all around the world. CEOS also provides an established means of communicating with external organizations, enabling CEOS to understand and act upon these organizations’ EO needs and requirements. 
 

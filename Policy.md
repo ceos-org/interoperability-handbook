@@ -1,7 +1,9 @@
+# Policy
+
 [Previous](Quality.md) | [Table of contents](README.md) | [Next](README.md)
 ***
- # **Policy**
-Policy is a statement of intent, which provides guidance for implementation of processes and procedures in an organization. Policies can be at organization/local level or at the government/center level and may have legal bindings. The government level policies take precedence over the organization policies. Institutional mechanism is required to ensure compliance of policies in an organization. The policies are the guiding document for decision making processes in an organization. 
+
+Policy is a statement of intent, which provides guidance for implementation of processes and procedures in an organization. Policies can be at organization/local level or at the government/center level and may have legal bindings. The government level policies take precedence over the organization policies. Institutional mechanism is required to ensure compliance of policies in an organization. The policies are the guiding document for decision making processes in an organization.
 
 Policy is one of the most important factors and forms the basis of interoperability. Following are interoperability recommendations for the policy factor.
 
@@ -14,7 +16,6 @@ Policy is one of the most important factors and forms the basis of interoperabil
 | **POL\#5** | **Open Source Software:** Provide users with Open Source Software, which demonstrates use of standards to access your data and services. |
 | **POL\#6** | **Open Science:** Promote concept of open science for collaborative development. Open Science ensures availability of the state-of-the-art algorithms and software providing consistent products from different data providers. |
 | **POL\#7** | **CEOS Best Practices:**  Ensure your organization complies with the CEOS Best Practices to pursue and facilitate Interoperability.  |
-
 
 ***
 [Previous](Quality.md) | [Table of contents](README.md) | [Next](README.md)
