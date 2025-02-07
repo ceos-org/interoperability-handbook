@@ -1,0 +1,16 @@
+name: Lint Markdown Formatting
+
+on: [push, pull_request]
+
+jobs:
+    lint-markdown:
+        runs-on: ubuntu-latest
+
+        steps:
+        -   name: Checkout repository
+            uses: actions/checkout@v2
+
+        -   name: Lint markdown formatting
+            uses: DavidAnson/markdownlint-cli2-action@v19
+            with:
+                globs: '*.md'
