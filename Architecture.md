@@ -26,7 +26,7 @@ The following list of recommendations describes the elements contributing to arc
 | **ID**   | **Recommendations**                                                                                                                                                                                                                                                                                                                                                                   |
 | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | DSTOR#1  | Use a same glossary of terms and definitions applicable to data archiving.                                                                                                                                                                                                                                                                                                            |
-| DSTOR#2  | An archive system should comply with the Reference Model for an [“Open Archival Information System” (OAIS)](https://public.ccsds.org/pubs/650x0m2.pdf), and to the OAIS-Interoperability Framework to facilitate the interoperability between archives.                                                                                                                                |
+| DSTOR#2  | An archive system should comply with the Reference Model for an [“Open Archival Information System” (OAIS)](https://public.ccsds.org/pubs/650x0m2.pdf), and to the OAIS-Interoperability Framework to facilitate the interoperability between archives.                                                                                                                               |
 | DSTOR#3  | An archive should use a questionnaire to help archivists in appraising data that are candidates for archiving.                                                                                                                                                                                                                                                                        |
 | DSTOR#4  | CEOS agencies should use the purge alert service before data and information removal from archives.                                                                                                                                                                                                                                                                                   |
 | DSTOR#5  | Keep archives equipment in conformance with manufacturer recommendations.                                                                                                                                                                                                                                                                                                             |
@@ -39,7 +39,7 @@ The following list of recommendations describes the elements contributing to arc
 | DSTOR#12 | Perform periodical technology trend analysis to better manage the migration of archive system relevant components to new hardware platforms.                                                                                                                                                                                                                                          |
 | DSTOR#13 | Periodically verify the integrity of the archive collection/content through integrity check on a representative set of the archived data.                                                                                                                                                                                                                                             |
 | DSTOR#14 | Ensure that the content of the archived data and associated information remains unchanged and, if changes are made, that these are documented and that this documentation is preserved and made available as well (provenance information).                                                                                                                                           |
-| DSTOR#15 | Apply the [FAIR principles](https://www.go-fair.org/fair-principles/ ) to pursue data and metadata interoperability: <br> - I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation; <br> - I2. (Meta)data use vocabularies that follow FAIR principles; <br> - I3. (Meta)data include qualified references to other (meta)data. |
+| DSTOR#15 | Apply the [FAIR principles](https://www.go-fair.org/fair-principles/ ) to pursue data and metadata interoperability:<br> - I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation; <br> - I2. (Meta)data use vocabularies that follow FAIR principles; <br> - I3. (Meta)data include qualified references to other (meta)data. |
 | DSTOR#16 | Confirm data archive and/or disposal at end-of-life at publication stage.                                                                                                                                                                                                                                                                                                             |
 | DSTOR#17 | Assign a Persistent Identifier to data archived and published to users and ensure the availability of all associated information in the relevant Landing Page.                                                                                                                                                                                                                        |
 
@@ -61,11 +61,11 @@ The Cloud computing architecture supports standardized API, protocols and provid
 Data Analytics architecture in an organization provides capability to store, analyze and visualize the data. As a typical Earth Observation data analytics require a large volume of time series data and hence
 it is necessary to support interoperability in the analytics architecture using following recommendations.
 
-## Analysis Ready Data
+### Analysis Ready Data
 
 Analysis Ready Data (ARD) are starting point for interoperability in analysis and hence Data Providers are encouraged to develop ARD.
 
-## ARD Recommendations
+#### ARD Recommendations
 
 | **ID**     | **Recommendations**                                                                                                                                                                |
 | :--------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -75,15 +75,15 @@ Analysis Ready Data (ARD) are starting point for interoperability in analysis an
 | **ARD\#4** |                                                                                                                                                                                    |
 | **ARD\#5** |                                                                                                                                                                                    |
 
-## Datacube
+### Datacube
 
 Data Cube provide capability to pack a collection of data and provide capability for fast access and analysis.
 
-## Datacube Recommendations
+#### Datacube Recommendations
 
 | **ID**       | **Recommendations**                                                                                                                                                                   |
 | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **DCUBE\#1** | The CEOS supported Open Data Cube can be taken as a reference for Data cube implementation                                                                                            |
+| **DCUBE\#1** | The CEOS supported [Open Data Cube](https://opendatacube.org) can be taken as a reference for Datacube implementation                                                                 |
 | **DCUBE\#2** | Data cubes should support spatial and/or temporal dimensions and capability for publishing available variables/properties as metadata                                                 |
 | **DCUBE\#3** | Data cubes should abstract the underlying data storage architecture to support hybrid data cubes and interoperability among different types of data cubes                             |
 | **DCUBE\#4** | Data cube may contain raw sensor data, analysis ready data or decision ready information. Analysis Reay Data  should be preferred to avoid pre-processing overheads and fast analysis |
