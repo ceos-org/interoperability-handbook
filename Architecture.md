@@ -14,7 +14,6 @@ Following Architecture has impact on Interoperability:
 3) Cloud Architecture
 4) Publishing Architecture
 5) Technologies
-6) Data Analytics Architecture
 
 ## Data Architecture
 
