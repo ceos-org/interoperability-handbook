@@ -33,7 +33,6 @@ services through the exploitation of standard protocols and the harmonizing of s
 | **DACC\#3** |  Data access should support file-level access and subfile or pixel-based access.|
 | **DACC\#4** |  Data download interfaces over HTTP should support [`Range Requests`](https://en.wikipedia.org/wiki/Byte_serving) to allow clients to request a portion of a file.  Typical use case: access to a portion of a [Cloud-Optimized GeoTIFF (COG)](https://en.wikipedia.org/wiki/GeoTIFF) file.|
 | **DACC\#5** |  In case a granule consists of many individual assets (files), it shall be possible to access each asset individually or access all subcomponents of a granule with a single request.|
-| **DACC\#6** |  |
 
 ## Authentication and Authorization
 

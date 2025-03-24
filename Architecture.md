@@ -13,7 +13,8 @@ Following Architecture has impact on Interoperability:
 2) Metadata Architecture
 3) Cloud Architecture
 4) Publishing Architecture
-5) Data Analytics Architecture
+5) Technologies
+6) Data Analytics Architecture
 
 ## Data Architecture
 
@@ -61,8 +62,8 @@ and other ancillary documents that help describe the granule. It also covers col
 | **METADATA#02** | A Collection of data should have all granules packaged consistently and produced with consistent quality.                             |
 | **METADATA#03** | Collection-specific metadata formats may be used, but packaging must include STAC documents at the Collection and Granule/Item level  |
 | **METADATA#04** | Hashes for all files in a packaged granule should be available, so that integrity checks can be run                                   |
-| **METADATA#04** | Pixel-level metadata such as scene quality masks should be clearly documented with a reference to lookup tables                       |
-| **METADATA#05** | File names and folder or path structures should be consistent and include appropriate information to distinguish the specific granule |
+| **METADATA#05** | Pixel-level metadata such as scene quality masks should be clearly documented with a reference to lookup tables                       |
+| **METADATA#06** | File names and folder or path structures should be consistent and include appropriate information to distinguish the specific granule |
 
 ## Cloud Architecture
 
@@ -87,6 +88,22 @@ are aimed at facilitating both access to data as well as maintaining a replica o
 | **PUBLISH\#2** | Each data collection that is published as a publicly-accessible product should include a public granule-level notification including for when it is added, updated or deleted/archived. This should be able to be filtered by location. |
 | **PUBLISH\#3** | A collection should have a full listing of all available granules in a standard format, preferably cloud optimized. [STAC-geoparquet](https://stac-utils.github.io/stac-geoparquet/latest/) is used by some providers currently         |
 | **PUBLISH\#4** | Data licensing should be clear and adhere to national policies, with a strong preference for standard open licenses such as Creative Commons                                                                                            |
+
+## Technologies
+
+A range of specific technologies including software applications and service specifications are currently in wide use and can be used to
+access collections of data that are published using them. The list below includes examples of these technologies.
+
+| **ID**      | **Recommendations**                                                                                                                                                                |
+| :---------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **TECH\#1** | The CEOS supported [Open Data Cube](https://opendatacube.org) can be taken as a reference Datacube implementation                                                                  |
+| **TECH\#1** | Collection and Granule metadata should be accessible in a REST API that implements the OGC API for Features, such as the [STAC API](https://github.com/radiantearth/stac-api-spec) |
+| **TECH\#2** | Datacubes can be created on the fly using client applications working against a REST API, for example, using [odc-stac](https://github.com/opendatacube/odc-stac)                  |
+| **TECH\#4** | [OGC APIs](https://ogcapi.ogc.org/) should be used to publish web services for visualisation and data access                                                                       |
+
+Requirement of Analytics Architecture is to be discussed
+
+## Analytics Architecture
 
 ## Technologies
 
