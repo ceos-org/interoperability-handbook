@@ -29,18 +29,18 @@ services through the exploitation of standard protocols and the harmonizing of s
 
 | **ID** | **Recommendations** |
 | :---- | :---- |
-| **DACC\#1** |  Granule data stored in the cloud should be accessible via the S3 (Simple Storage Service) and HTTP(S) protocols. |
+| **DACC\#1** |  Granule data stored in the cloud should be accessible directly via a web-based protocol, for example the S3 (Simple Storage Service) and HTTP(S). |
 | **DACC\#2** |  Granule data stored in the cloud should preferably be accessible in cloud-optimized formats, e.g. [Zarr](https://en.wikipedia.org/wiki/Zarr_(data_format)) or [Cloud-Optimized GeoTIFF (COG)](https://en.wikipedia.org/wiki/GeoTIFF).|
-| **DACC\#3** |  Data access should support file-level access and subfile or pixel-based access.|
-| **DACC\#4** |  Data download interfaces over HTTP should support [`Range Requests`](https://en.wikipedia.org/wiki/Byte_serving) to allow clients to request a portion of a file.  Typical use case: access to a portion of a [Cloud-Optimized GeoTIFF (COG)](https://en.wikipedia.org/wiki/GeoTIFF) file.|
-| **DACC\#5** |  In case a granule consists of many individual assets (files), it shall be possible to access each asset individually or access all subcomponents of a granule with a single request.|
+| **DACC\#3** |  Data access should support file-level access and subfile or pixel-based access. Data download interfaces over HTTPS should support [`Range Requests`](https://en.wikipedia.org/wiki/Byte_serving) to allow clients to request a portion of a file.  Typical use case: access to a portion of a [Cloud-Optimized GeoTIFF (COG)](https://en.wikipedia.org/wiki/GeoTIFF) file.|
+| **DACC\#4** |  In case a granule consists of many individual assets (files), it shall be possible to access each asset individually or access all subcomponents of a granule with a single request.|
 
 ## Authentication and Authorization
 
 | **ID** | **Recommendations** |
 | :---- | :---- |
-| **AUTH\#1** |  Authentication interfaces should support the [OpenID Connect](https://openid.net/developers/how-connect-works/) Protocol. |
-| **AUTH\#2** |  HTTP requests (e.g. for data access) subject to authorization shall include the user token with `claims` in [JWT](https://datatracker.ietf.org/doc/html/rfc7519) format returned by the Authentication interface with every API request as a bearer token in the HTTP authorization header. |
+| **AUTH\#1** | Authorization should be available at a file level for both human and machine to machine interface. |
+| **AUTH\#2** |  Authentication interfaces should comply with open standards, such as [OpenID Connect](https://openid.net/developers/how-connect-works/) Protocol. |
+| **AUTH\#3** |  HTTP requests (e.g. for data access) subject to authorization should include the user token with `claims` in [JWT](https://datatracker.ietf.org/doc/html/rfc7519) format returned by the Authentication interface with every API request as a bearer token in the HTTP authorization header. Other equivalent authorisation methods are supported.  |
 
 ***
 [Previous](Architecture.md) | [Table of contents](README.md) | [Next](Quality.md)
