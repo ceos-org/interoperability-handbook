@@ -40,7 +40,11 @@ services through the exploitation of standard protocols and the harmonizing of s
 | :---- | :---- |
 | **AUTH\#1** | Authorization should be available at a file level for both human and machine to machine interface. |
 | **AUTH\#2** |  Authentication interfaces should comply with open standards, such as [OpenID Connect](https://openid.net/developers/how-connect-works/) Protocol. |
-| **AUTH\#3** |  HTTP requests (e.g. for data access) subject to authorization should include the user token with `claims` in [JWT](https://datatracker.ietf.org/doc/html/rfc7519) format returned by the Authentication interface with every API request as a bearer token in the HTTP authorization header. Other equivalent authorisation methods are supported.  |
+| **AUTH\#3** |  HTTP requests (e.g. for data access) subject to authorization should include the user token with `claims` in [JWT](https://datatracker.ietf.org/doc/html/rfc7519) format returned by the Authentication interface with every API request as a bearer token in the HTTP authorization header. Other equivalent authorisation methods are supported.  
+
+Alternative text:
+HTTP(S) requests for data access that require authorisation, will support well known methods for both human and machine-to-machine interface, such as those specified in the OpenAPI 3.0 https://swagger.io/docs/specification/v3_0/authentication/ 
+|
 
 ***
 [Previous](Architecture.md) | [Table of contents](README.md) | [Next](Quality.md)
