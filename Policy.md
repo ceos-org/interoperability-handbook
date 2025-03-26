@@ -9,7 +9,7 @@ Policy is one of the most important factors and forms the basis of interoperabil
 
 | ID | Recommendations |
 | :---- | :---- |
-| **POL\#1**| Data providers should participate and engage in community groups. Interoperability requires collaboration and coordination between all actors within the sector. |
+| **POL\#1**| Data providers should participate and engage in relevant community groups/events, such as CEOS, GEO and CGMS, and their respective working groups. Interoperability requires collaboration and coordination between all actors within the sector. |
 | **POL\#2**| Identify policies in your organization/country related to data and services and conduct periodic check/audit for compliance to these policies. Identify policies which may be barriers to interoperability of data and services and flag them for resolution. Ensure the policies are clearly communicated to stakeholders. |
 | **POL\#3** | **EO Capabilities:** Publish and periodically update information about present and planned Earth observation Satellites in online databases, preferrably the [CEOS MIM Database](https://ceos.org/mim-database). This will help in planning and overall coordination among different EO stakeholders. |
 | **POL\#4** | **Open Standards and Specifications:** Ensure your organizations implement open standards and specfications such as those published by the OGC for data and services. Drafting of new specifications for data formats, metadata formats and service APIs should be preferrably done along with standards organisations, or developed by the open source community. |
