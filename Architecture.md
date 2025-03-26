@@ -9,30 +9,11 @@ integration, and use of data, and is the basis on which the interoperability of 
 
 Following Architecture has impact on Interoperability:
 
-1) Data Architecture
-2) Metadata Architecture
-3) Cloud Architecture
-4) Publishing Architecture
-5) Technologies
+1) Preservation Architecture
+2) Data and Metadata Architecture
+3) Publishing Architecture
 
-## Data Architecture
-
-This section covers the core recommendations for data production, management, archiving and deletion.
-
-| **ID**      | **Recommendations**                                                                                                                                                                                                                                     |
-| :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **DATA#1** | [CEOS-ARD Framework](ceos.org/ard) should be used as a starting point for development of Analysis Ready Data. |
-| **DATA#2** | CEOS-ARD Product Family Specifications (PFS) should be used for development and assessment of ARD products, including both self-assessments and peer review.   |
-| **DATA#4** | The ISO 19115 series of standards (or similar) should be used to produce geospatial metadata. |
-| **DATA#5** | A Collection of data should have all granules packaged consistently and produced with consistent quality. |
-| **DATA#6** | Collection-specific metadata formats may be used, but packaging must also include STAC documents at the Collection and Granule/Item level. Refer to the CEOS EO collection and granule discovery best practices with STAC. |
-| **DATA#7** | Checksums for all files in a packaged granule should be available, to ensure integrity. |
-| **DATA#8** | Where pixel-level metadata is avaliable, such as scene quality masks, it should be clearly documented with a reference to lookup tables.|
-| **DATA#9** | File names and folder or path structures should be consistent and include appropriate information to distinguish the specific granule. This could include the platform, time and date of aquisition, band(s), and product version.  |
-| **DATA#10** | Assign a Persistent Identifier to data archived and published to users and ensure the availability of all associated information in the relevant Landing Page following the [CEOS Persistent Identifiers Best Practice](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
-| **DATA#11** | The CEOS supported [Open Data Cube](https://opendatacube.org) family of software can be taken as a reference Datacube implementation. |
-
-## Data Preservation
+## Preservation Architecture
 
 The following list of recommendations describes the elements contributing to archive interoperability. 
 
@@ -51,6 +32,25 @@ patterns of data.
 | **DPRES\#7** | Periodically verify the integrity of the archive collection/content through integrity check on a representative set of the archived data.|
 | **DPRES\#8** | Manage evolution of archived data collections according to the [Shared Collection Lifecycle Management Principles for EO Data](https://ceos.org/ourwork/workinggroups/wgiss/documents/) best practice.  |
 | **DPRES\#9** | To ensure interoperability between archives, archives equipment (hardware and software) should be compatible, and compliant with vendor recommendations.|
+
+
+## Data and Metadata Architecture
+
+This section covers the core recommendations for data production, management, archiving and deletion.
+
+| **ID**      | **Recommendations**                                                                                                                                                                                                                                     |
+| :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **DATA#1** | [CEOS-ARD Framework](ceos.org/ard) should be used as a starting point for development of Analysis Ready Data. |
+| **DATA#2** | CEOS-ARD Product Family Specifications (PFS) should be used for development and assessment of ARD products, including both self-assessments and peer review.   |
+| **DATA#4** | The ISO 19115 series of standards (or similar) should be used to produce geospatial metadata. |
+| **DATA#5** | A Collection of data should have all granules packaged consistently and produced with consistent quality. |
+| **DATA#6** | Collection-specific metadata formats may be used, but packaging must also include STAC documents at the Collection and Granule/Item level. Refer to the CEOS EO collection and granule discovery best practices with STAC. |
+| **DATA#7** | Checksums for all files in a packaged granule should be available, to ensure integrity. |
+| **DATA#8** | Where pixel-level metadata is avaliable, such as scene quality masks, it should be clearly documented with a reference to lookup tables.|
+| **DATA#9** | File names and folder or path structures should be consistent and include appropriate information to distinguish the specific granule. This could include the platform, time and date of aquisition, band(s), and product version.  |
+| **DATA#10** | Assign a Persistent Identifier to data archived and published to users and ensure the availability of all associated information in the relevant Landing Page following the [CEOS Persistent Identifiers Best Practice](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
+| **DATA#11** | The CEOS supported [Open Data Cube](https://opendatacube.org) family of software can be taken as a reference Datacube implementation. |
+
 
 
 ## Publishing Architecture
