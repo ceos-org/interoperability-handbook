@@ -37,16 +37,15 @@ patterns of data.
 
 | **ID**      | **Recommendations**                                                                                                                                                                                                                                     |
 | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **DPRES\#2** | Archival systems should comply with the Reference Model for an [Open Archival Information System](https://public.ccsds.org/pubs/650x0m2.pdf) (OAIS) and with the forthcoming “OAIS-Interoperability Framework” to facilitate interoperability between archives. |
-| **DPRES\#3** | Data should be appraised and properly documented before ingestion in the archives following the [CEOS Data Appraisal Procedure](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
-| **DPRES\#5** | Data and associated information should be ingested, archived and preserved, following internationally recognised standards and best practices (e.g. those produced by [WGISS](https://ceos.org/ourwork/workinggroups/wgiss/documents/) and [Producer-Archive Interface Methodology Abstract Standard](https://public.ccsds.org/Pubs/651x0m1.pdf) ) with any tailoring documented. |
-| **DPRES\#** | CEOS Agencies should use the purge alert service before data and information removal from archives. → NOW POLICY POL#9 |
-| **DPRES\#6** |  Periodically perform archival system/media upgrade to the most adequate proven technology to ensure data and information long term preservation. Perform migration, with an integrity check, of archived data from old to new systems.|
-| **DPRES\#7** | Archive and preserve the information, code and software needed to handle the archived data, following the [CEOS guidelines](https://ceos.org/ourwork/workinggroups/wgiss/documents/).|
-| **DPRES\#9** | When performing archived data and information repackaging and/or reformatting, for example to comply with new standard formats and/or exchange formats, properly document changes made to the archived data and ensure data integrity.  |
-| **DPRES\#10** | Periodically verify the integrity of the archive collection/content through integrity check on a representative set of the archived data.|
-| **DPRES\#12** | Manage evolution of archived data collections according to the [Shared Collection Lifecycle Management Principles for EO Data](https://ceos.org/ourwork/workinggroups/wgiss/documents/) best practice.  |
-| **DPRES\#15** | To ensure interoperability between archives, archives equipment (hardware and software) should be compatible, and compliant with vendor recommendations.|
+| **DPRES\#1** | Archival systems should comply with the Reference Model for an [Open Archival Information System](https://public.ccsds.org/pubs/650x0m2.pdf) (OAIS) and with the forthcoming “OAIS-Interoperability Framework” to facilitate interoperability between archives. |
+| **DPRES\#2** | Data should be appraised and properly documented before ingestion in the archives following the [CEOS Data Appraisal Procedure](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
+| **DPRES\#3** | Data and associated information should be ingested, archived and preserved, following internationally recognised standards and best practices (e.g. those produced by [WGISS](https://ceos.org/ourwork/workinggroups/wgiss/documents/) and [Producer-Archive Interface Methodology Abstract Standard](https://public.ccsds.org/Pubs/651x0m1.pdf) ) with any tailoring documented. |
+| **DPRES\#4** |  Periodically perform archival system/media upgrade to the most adequate proven technology to ensure data and information long term preservation. Perform migration, with an integrity check, of archived data from old to new systems.|
+| **DPRES\#5** | Archive and preserve the information, code and software needed to handle the archived data, following the [CEOS guidelines](https://ceos.org/ourwork/workinggroups/wgiss/documents/).|
+| **DPRES\#6** | When performing archived data and information repackaging and/or reformatting, for example to comply with new standard formats and/or exchange formats, properly document changes made to the archived data and ensure data integrity.  |
+| **DPRES\#7** | Periodically verify the integrity of the archive collection/content through integrity check on a representative set of the archived data.|
+| **DPRES\#8** | Manage evolution of archived data collections according to the [Shared Collection Lifecycle Management Principles for EO Data](https://ceos.org/ourwork/workinggroups/wgiss/documents/) best practice.  |
+| **DPRES\#9** | To ensure interoperability between archives, archives equipment (hardware and software) should be compatible, and compliant with vendor recommendations.|
 
 
 
