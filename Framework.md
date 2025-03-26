@@ -14,7 +14,7 @@ Each factor has several components and are summarized as below.
 | **Vocabulary (Semantics)** | The (narrow) semantic aspect refers to the naming and defining terms and expression. It includes developing, harmonizing, and maintaining vocabularies,concepts, and schemata supporting provision, exchange, and analysis of data, information, and knowledge regarding Earth Observation. It ensures that words and language are understood in the same way by all communicating parties |
 | **Architecture** | Architecture describes the organizational structure of concepts, processes, and assets, including data. It comprises of the structural aspects of models and standards that govern the collection, storage, arrangement, integration, and use of data |
 | **Interface (Accessibility)** | Data exchange protocols, and application interfaces. These provide the means necessary to search for collections, find and access data and information contained in those collections. |
-| **Quality** | References are data and schemes that are used as benchmarks for (observational) data comparison or analysis. This could include instances such as geographic locations, product numbers, or official (authoritative) data and statistics. |
+| **Quality** | Indicators (parameters, metrics, etc.) for informing users of the trustworthiness (accuracy, uncertainty, consistency, etc.) of the data provided (measurands, measurements, observations, etc.). |
 | **Policy** | Legal frameworks, policy, rules, and strategies regulating the relation between the different stakeholders. |
 
 The factors together intend to cover all aspects that play a role in enabling interoperability of data and services. Design criteria for the
