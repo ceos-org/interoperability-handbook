@@ -19,13 +19,21 @@ Following Architecture has impact on Interoperability:
 
 This section covers the core recommendations for data production, management, archiving and deletion.
 
-The primary purpose of data archiving is to preserve data over time. Preserving data over time consists in holding data in repositories in a way
-that enables data to be managed and accessed now and in the future. Data archiving is not only a complex, long-term process, with possibly many
-partners: data providers supplying data to the archive, data users willing to use the archive, archive managers organizing the archive, other archives
-with which interoperability may be sought. Data management and archiving should consider not just the storage of data, but also the access and usage
+| **ID**      | **Recommendations**                                                                                                                                                                                                                                     |
+| :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **DATA#1** | Apply the [FAIR principles](https://www.go-fair.org/fair-principles/) to pursue data and metadata interoperability                                                                                                                                     |
+| **DATA#2** | CEOS-ARD Framework should be used as a starting point for development of Analysis Ready Data                                                                                                                                                            |
+| **DATA#3** | CEOS-ARD Product Family Specifications (PFS) should be used for development of ARD products. In case if a new ARD is to be developed, use PFS template and submit to CEOS for approval                                                                      |
+| **DATA#4** | CEOS-ARD compliance of the product requires two level of assessments, first is self assessment (CEOS ARD Self Assessment Guide)  and second is peer review by CEOS Experts                                                                              |
+
+
+## Data Preservation
+
+The following list of recommendations describes the elements contributing to archive interoperability. 
+
+The primary purpose of data archiving is to preserve data over time. Preserving data over time consists in holding data in repositories in a way that enables data to be managed and accessed now and in the future. Data archiving is not only a complex, long-term process, with possibly many partners: data providers supplying data to the archive, data users willing to use the archive, archive managers organizing the archive, other archives with which interoperability may be sought. Data management and archiving should consider not just the storage of data, but also the access and usage
 patterns of data.
 
-The following list of recommendations describes the elements contributing to archive interoperability.
 
 | **ID**      | **Recommendations**                                                                                                                                                                                                                                     |
 | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -42,15 +50,10 @@ The following list of recommendations describes the elements contributing to arc
 | **DPRES\#10** | Periodically verify the integrity of the archive collection/content through integrity check on a representative set of the archived data.|
 | **DPRES\#11** |  Ensure that the content of the archived data and associated information remains unchanged and, if changes are made, that these are documented and that this documentation is preserved and made available as well (provenance information). |
 | **DPRES\#12** | Manage evolution of archived data collections according to the [Shared Collection Lifecycle Management Principles for EO Data](https://ceos.org/ourwork/workinggroups/wgiss/documents/) best practice.  |
-| **DPRES\#13** | Assign a Persistent Identifier to data archived and published to users and ensure the availability of all associated information in the relevant Landing Page following the [CEOS Persistent Identifiers Best Practice](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS%20Persistent%20Identifier%20Best%20Practice.pdf). |
-| **DPRES\#14** | Maintain at least two copies of at least the core data products, for example the [3-2-1 Backup Strategy](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/)                                                                           |
+| **DPRES\#13** | Assign a Persistent Identifier to data archived and published to users and ensure the availability of all associated information in the relevant Landing Page following the [CEOS Persistent Identifiers Best Practice](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
+| **DPRES\#14** | Maintain at least two copies of at least the core data products, in two different locations.                                                           |
 
-| **ID**      | **Recommendations**                                                                                                                                                                                                                                     |
-| :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **DATA#15** | Apply the [FAIR principles](https://www.go-fair.org/fair-principles/) to pursue data and metadata interoperability                                                                                                                                     |
-| **DATA#18** | CEOS ARD Framework should be used as a starting point for development of Analysis Ready Data                                                                                                                                                            |
-| **DATA#19** | CEOS Product Family Specifications (PFS) should be used for development of ARD products. In case if a new ARD is to be developed, use PFS template and submit to CEOS for approval                                                                      |
-| **DATA#20** | CEOS ARD compliance of the product requires two level of assessments, first is self assessment (CEOS ARD Self Assessment Guide)  and second is peer review by CEOS Experts                                                                              |
+
 
 ## Metadata Architecture
 
@@ -101,6 +104,8 @@ access collections of data that are published using them. The list below include
 | **TECH\#1** | Collection and Granule metadata should be accessible in a REST API that implements the OGC API for Features, such as the [STAC API](https://github.com/radiantearth/stac-api-spec) |
 | **TECH\#2** | Datacubes can be created on the fly using client applications working against a REST API, for example, using [odc-stac](https://github.com/opendatacube/odc-stac)                  |
 | **TECH\#4** | [OGC APIs](https://ogcapi.ogc.org/) should be used to publish web services for visualisation and data access                                                                       |
+
+-- Add Jupyter Notebook recommendations here? 
 
 Requirement of Analytics Architecture is to be discussed
 
