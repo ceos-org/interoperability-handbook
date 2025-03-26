@@ -31,7 +31,7 @@ patterns of data.
 | **DPRES\#6** | When performing archived data and information repackaging and/or reformatting, for example to comply with new standard formats and/or exchange formats, properly document changes made to the archived data and ensure data integrity.  |
 | **DPRES\#7** | Periodically verify the integrity of the archive collection/content through integrity check on a representative set of the archived data.|
 | **DPRES\#8** | Manage evolution of archived data collections according to the [Shared Collection Lifecycle Management Principles for EO Data](https://ceos.org/ourwork/workinggroups/wgiss/documents/) best practice.  |
-| **DPRES\#9** | To ensure interoperability between archives, archives equipment (hardware and software) should be compatible, and compliant with vendor recommendations.|
+| **DPRES\#9** | Keep archives equipment (hardware and software) up-to-date and in conformance with vendor recommendations to preserve data and associated information integrity and facilitate interoperability between archives.|
 
 
 ## Data and Metadata Architecture
