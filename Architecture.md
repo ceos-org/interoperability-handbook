@@ -21,11 +21,16 @@ This section covers the core recommendations for data production, management, ar
 
 | **ID**      | **Recommendations**                                                                                                                                                                                                                                     |
 | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **DATA#1** | Apply the [FAIR principles](https://www.go-fair.org/fair-principles/) to pursue data and metadata interoperability                                                                                                                                     |
-| **DATA#2** | CEOS-ARD Framework should be used as a starting point for development of Analysis Ready Data                                                                                                                                                            |
-| **DATA#3** | CEOS-ARD Product Family Specifications (PFS) should be used for development of ARD products. In case if a new ARD is to be developed, use PFS template and submit to CEOS for approval                                                                      |
-| **DATA#4** | CEOS-ARD compliance of the product requires two level of assessments, first is self assessment (CEOS ARD Self Assessment Guide)  and second is peer review by CEOS Experts                                                                              |
-
+| **DATA#1** | [CEOS-ARD Framework](ceos.org/ard) should be used as a starting point for development of Analysis Ready Data. |
+| **DATA#2** | CEOS-ARD Product Family Specifications (PFS) should be used for development and assessment of ARD products, including both self-assessments and peer review.   |
+| **DATA#4** | The ISO 19115 series of standards (or similar) should be used to produce geospatial metadata. |
+| **DATA#5** | A Collection of data should have all granules packaged consistently and produced with consistent quality. |
+| **DATA#6** | Collection-specific metadata formats may be used, but packaging must also include STAC documents at the Collection and Granule/Item level. Refer to the CEOS EO collection and granule discovery best practices with STAC. |
+| **DATA#7** | Checksums for all files in a packaged granule should be available, to ensure integrity. |
+| **DATA#8** | Where pixel-level metadata is avaliable, such as scene quality masks, it should be clearly documented with a reference to lookup tables.|
+| **DATA#9** | File names and folder or path structures should be consistent and include appropriate information to distinguish the specific granule. This could include the platform, time and date of aquisition, band(s), and product version.  |
+| **DATA#10** | Assign a Persistent Identifier to data archived and published to users and ensure the availability of all associated information in the relevant Landing Page following the [CEOS Persistent Identifiers Best Practice](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
+| **DATA#11** | The CEOS supported [Open Data Cube](https://opendatacube.org) family of software can be taken as a reference Datacube implementation. |
 
 ## Data Preservation
 
@@ -48,61 +53,18 @@ patterns of data.
 | **DPRES\#9** | To ensure interoperability between archives, archives equipment (hardware and software) should be compatible, and compliant with vendor recommendations.|
 
 
-
-## Metadata Architecture
-
-Metadata architecture covers the packaging (grouping of a granule/scene/STAC Item) of a single set of data, and the structure of the accompanying metadata
-and other ancillary documents that help describe the granule. It also covers collection-level metadata.
-
-| **ID**          | **Recommendations**                                                                                                                   |
-| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| **METADATA#01** | The ISO 19115 series of standards should be used for geospatial metadata at the collection level                                      |
-| **METADATA#02** | A Collection of data should have all granules packaged consistently and produced with consistent quality.                             |
-| **METADATA#03** | Collection-specific metadata formats may be used, but packaging must include STAC documents at the Collection and Granule/Item level  |
-| **METADATA#04** | Hashes for all files in a packaged granule should be available, so that integrity checks can be run                                   |
-| **METADATA#05** | Pixel-level metadata such as scene quality masks should be clearly documented with a reference to lookup tables                       |
-| **METADATA#06** | File names and folder or path structures should be consistent and include appropriate information to distinguish the specific granule |
-| **METADATA\#7** | Assign a Persistent Identifier to data archived and published to users and ensure the availability of all associated information in the relevant Landing Page following the [CEOS Persistent Identifiers Best Practice](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
-
-## Cloud Architecture
-
-The Cloud architecture includes a range of recommendation to be used when managing data for interoperability on the cloud.
-
-| **ID**       | **Recommendations**                                                                                                                                                                              |
-| :----------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **CLOUD\#1** | The data to be shared through cloud should be converted to cloud optimized formats for faster and interoperable access across multiple applications                                              |
-| **CLOUD\#2** | Granules must not be zipped when shared via the cloud, so that cloud optimized data formats can be leveraged                                                                                     |
-| **CLOUD\#3** | Where possible, cloud providers' standard as-a-service offerings should be used in preference to self-developed solutions, enabling interoperability of tools that work with that cloud provider |
-| **CLOUD\#5** | Intermediation of a cloud provider's object store is discouraged, meaning that if possible, direct access using the service's APIs should be available                                           |
-| **CLOUD\#6** | When possible, internal tooling and web services that are not a security of privacy risk should be made open source and openly accessible                                                        |
-
 ## Publishing Architecture
 
-Publishing recommendations involve the final stage in making data accessible to external organizations or individuals. These recommendations
-are aimed at facilitating both access to data as well as maintaining a replica of part or all of a collection of data.
+Publishing recommendations involve the final stage in making data accessible to external organizations or individuals. These recommendations are aimed at facilitating both access to data as well as maintaining a replica of part or all of a collection of data, including to be used when managing data for interoperability on the cloud.
+
 
 | **ID**         | **Recommendations**                                                                                                                                                                                                                     |
 | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **PUBLISH\#1** | Granules should be available immediately and not through an on-demand service                                                                                                                                                           |
-| **PUBLISH\#2** | Each data collection that is published as a publicly-accessible product should include a public granule-level notification including for when it is added, updated or deleted/archived. This should be able to be filtered by location. |
-| **PUBLISH\#3** | A collection should have a full listing of all available granules in a standard format, preferably cloud optimized. [STAC-geoparquet](https://stac-utils.github.io/stac-geoparquet/latest/) is used by some providers currently         |
-| **PUBLISH\#4** | Data licensing should be clear and adhere to national policies, with a strong preference for standard open licenses such as Creative Commons                                                                                            |
-
-## Technologies
-
-A range of specific technologies including software applications and service specifications are currently in wide use and can be used to
-access collections of data that are published using them. The list below includes examples of these technologies.
-
-| **ID**      | **Recommendations**                                                                                                                                                                |
-| :---------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **TECH\#1** | The CEOS supported [Open Data Cube](https://opendatacube.org) can be taken as a reference Datacube implementation                                                                  |
-| **TECH\#1** | Collection and Granule metadata should be accessible in a REST API that implements the OGC API for Features, such as the [STAC API](https://github.com/radiantearth/stac-api-spec) |
-| **TECH\#2** | Datacubes can be created on the fly using client applications working against a REST API, for example, using [odc-stac](https://github.com/opendatacube/odc-stac)                  |
-| **TECH\#4** | [OGC APIs](https://ogcapi.ogc.org/) should be used to publish web services for visualisation and data access                                                                       |
-
--- Add Jupyter Notebook recommendations here? 
-
-Requirement of Analytics Architecture is to be discussed
+| **PUBLISH\#1** | Each data collection that is published as a publicly-accessible product should include a public granule-level notification including for when it is added, updated or deleted/archived. This supports management and maintenance of replicas. |
+| **PUBLISH\#2** | A collection should have a full listing of all available granules in a standard format, preferably cloud optimized. For example, [STAC-geoparquet](https://stac-utils.github.io/stac-geoparquet/latest/) is used by some providers.  |
+| **PUBLISH\#3** |  Granule data stored in the cloud should preferably be accessible in cloud-optimized formats, e.g. [Zarr](https://en.wikipedia.org/wiki/Zarr_(data_format)) or [Cloud-Optimized GeoTIFF (COG)](https://en.wikipedia.org/wiki/GeoTIFF).|
+| **PUBLISH\#4** | Granules should not be zipped when stored in the cloud, so that cloud optimized data formats can be leveraged. |
+| **PUBLISH\#5** | Where possible, cloud providers' standard interfaces should be used in preference to self-developed solutions, enabling interoperability of tools that work with that cloud provider. |
 
 ***
 [Previous](Vocabulary.md) | [Table of contents](README.md) | [Next](Interface.md)
