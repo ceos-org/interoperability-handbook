@@ -37,21 +37,16 @@ patterns of data.
 
 | **ID**      | **Recommendations**                                                                                                                                                                                                                                     |
 | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **DPRES\#1** | Use a common glossary of terms and definitions applicable to data archiving. (IT COULD BE A GENERIC RECOMMENDATION ALSO FOR OTHER DOMAINS) |
 | **DPRES\#2** | Archival systems should comply with the Reference Model for an [Open Archival Information System](https://public.ccsds.org/pubs/650x0m2.pdf) (OAIS) and with the forthcoming “OAIS-Interoperability Framework” to facilitate interoperability between archives. |
-| **DPRES\#3** | Archived data should be appraised and properly documented before ingestion in the archives following the forthcoming [CEOS Data Appraisal Procedure](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
-| **DPRES\#4** | Data and information ingestion into archives should follow internationally recognised standards and best practices (e.g. https://public.ccsds.org/Pubs/651x0m1.pdf) with documented tailoring derived from the generic activities described therein. |
-| **DPRES\#5** | Data and Information archiving and preservation should follow internationally recognised standards and best practices (e.g. those produced by [WGISS](https://ceos.org/ourwork/workinggroups/wgiss/documents/)) with documented tailoring derived from the generic activities described therein. |
+| **DPRES\#3** | Data should be appraised and properly documented before ingestion in the archives following the [CEOS Data Appraisal Procedure](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
+| **DPRES\#5** | Data and associated information should be ingested, archived and preserved, following internationally recognised standards and best practices (e.g. those produced by [WGISS](https://ceos.org/ourwork/workinggroups/wgiss/documents/) and [Producer-Archive Interface Methodology Abstract Standard](https://public.ccsds.org/Pubs/651x0m1.pdf) ) with any tailoring documented. |
 | **DPRES\#** | CEOS Agencies should use the purge alert service before data and information removal from archives. → NOW POLICY POL#9 |
-| **DPRES\#6** |  Periodically perform archival systems upgrade to the most adequate proven technology to ensure data and information long term preservation. Ensure migration of archived data from old to new systems.|
-| **DPRES\#7** | An harmonised approach should be pursued for the development and use of archiving systems, interfaces and formats to improve compatibility of services provided by different organisations. |
-| **DPRES\#8** | Maintain formal descriptions of data and information archiving formats. |
-| **DPRES\#9** | Perform archived data and information repackaging and/or reformatting to comply with new standard formats and/or exchange formats to ensure long term preservation, to increase technical compatibility and to reduce diversity of formats and interfaces between archives. |
+| **DPRES\#6** |  Periodically perform archival system/media upgrade to the most adequate proven technology to ensure data and information long term preservation. Perform migration, with an integrity check, of archived data from old to new systems.|
+| **DPRES\#7** | Archive and preserve the information, code and software needed to handle the archived data, following the [CEOS guidelines](https://ceos.org/ourwork/workinggroups/wgiss/documents/).|
+| **DPRES\#9** | When performing archived data and information repackaging and/or reformatting, for example to comply with new standard formats and/or exchange formats, properly document changes made to the archived data and ensure data integrity.  |
 | **DPRES\#10** | Periodically verify the integrity of the archive collection/content through integrity check on a representative set of the archived data.|
-| **DPRES\#11** |  Ensure that the content of the archived data and associated information remains unchanged and, if changes are made, that these are documented and that this documentation is preserved and made available as well (provenance information). |
 | **DPRES\#12** | Manage evolution of archived data collections according to the [Shared Collection Lifecycle Management Principles for EO Data](https://ceos.org/ourwork/workinggroups/wgiss/documents/) best practice.  |
-| **DPRES\#13** | Assign a Persistent Identifier to data archived and published to users and ensure the availability of all associated information in the relevant Landing Page following the [CEOS Persistent Identifiers Best Practice](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
-| **DPRES\#14** | Maintain at least two copies of at least the core data products, in two different locations.                                                           |
+| **DPRES\#15** | To ensure interoperability between archives, archives equipment (hardware and software) should be compatible, and compliant with vendor recommendations.|
 
 
 
@@ -68,6 +63,7 @@ and other ancillary documents that help describe the granule. It also covers col
 | **METADATA#04** | Hashes for all files in a packaged granule should be available, so that integrity checks can be run                                   |
 | **METADATA#05** | Pixel-level metadata such as scene quality masks should be clearly documented with a reference to lookup tables                       |
 | **METADATA#06** | File names and folder or path structures should be consistent and include appropriate information to distinguish the specific granule |
+| **METADATA\#7** | Assign a Persistent Identifier to data archived and published to users and ensure the availability of all associated information in the relevant Landing Page following the [CEOS Persistent Identifiers Best Practice](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
 
 ## Cloud Architecture
 
