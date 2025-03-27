@@ -40,8 +40,8 @@ This section covers the core recommendations for data production, management, ar
 
 | **ID**      | **Recommendations**                                                                                                                                                                                                                                     |
 | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **DATA#1** | [CEOS-ARD Framework](ceos.org/ard) should be used as a starting point for development of Analysis Ready Data. |
-| **DATA#2** | CEOS-ARD Product Family Specifications (PFS) should be used for development and assessment of ARD products, including both self-assessments and peer review.   |
+| **DATA#1** | [CEOS-ARD Framework](https://ceos.org/ard) should be used as a starting point for development of Analysis Ready Data. |
+| **DATA#2** | CEOS-ARD Product Family Specifications (PFS) should be used for development and assessment of ARD products, including both self-assessments and peer review. |
 | **DATA#4** | The ISO 19115 series of standards (or similar) should be used to produce geospatial metadata. |
 | **DATA#5** | A Collection of data should have all granules packaged consistently and produced with consistent quality. |
 | **DATA#6** | Collection-specific metadata formats may be used, but packaging must also include STAC documents at the Collection and Granule/Item level. Refer to the CEOS EO collection and granule discovery best practices with STAC. |
