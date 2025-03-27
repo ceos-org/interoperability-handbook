@@ -15,11 +15,10 @@ Following Architecture has impact on Interoperability:
 
 ## Preservation Architecture
 
-The following list of recommendations describes the elements contributing to archive interoperability. 
+The following list of recommendations describes the elements contributing to archive interoperability.
 
 The primary purpose of data archiving is to preserve data over time. Preserving data over time consists in holding data in repositories in a way that enables data to be managed and accessed now and in the future. Data archiving is not only a complex, long-term process, with possibly many partners: data providers supplying data to the archive, data users willing to use the archive, archive managers organizing the archive, other archives with which interoperability may be sought. Data management and archiving should consider not just the storage of data, but also the access and usage
 patterns of data.
-
 
 | **ID**      | **Recommendations**                                                                                                                                                                                                                                     |
 | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -32,7 +31,6 @@ patterns of data.
 | **DPRES\#7** | Periodically verify the integrity of the archive collection/content through integrity check on a representative set of the archived data.|
 | **DPRES\#8** | Manage evolution of archived data collections according to the [Shared Collection Lifecycle Management Principles for EO Data](https://ceos.org/ourwork/workinggroups/wgiss/documents/) best practice.  |
 | **DPRES\#9** | Keep archives equipment (hardware and software) up-to-date and in conformance with vendor recommendations to preserve data and associated information integrity and facilitate interoperability between archives.|
-
 
 ## Data and Metadata Architecture
 
@@ -51,17 +49,14 @@ This section covers the core recommendations for data production, management, ar
 | **DATA#10** | Assign a Persistent Identifier to data archived and published to users and ensure the availability of all associated information in the relevant Landing Page following the [CEOS Persistent Identifiers Best Practice](https://ceos.org/ourwork/workinggroups/wgiss/documents/). |
 | **DATA#11** | The CEOS supported [Open Data Cube](https://opendatacube.org) family of software can be taken as a reference Datacube implementation. |
 
-
-
 ## Publishing Architecture
 
 Publishing recommendations involve the final stage in making data accessible to external organizations or individuals. These recommendations are aimed at facilitating both access to data as well as maintaining a replica of part or all of a collection of data, including to be used when managing data for interoperability on the cloud.
 
-
 | **ID**         | **Recommendations**                                                                                                                                                                                                                     |
 | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **PUBLISH\#1** | Each data collection that is published as a publicly-accessible product should include a public granule-level notification including for when it is added, updated or deleted/archived. This supports management and maintenance of replicas. |
-| **PUBLISH\#2** | A collection should have a full listing of all available granules in a standard format, preferably cloud optimized. For example, [STAC-geoparquet](https://stac-utils.github.io/stac-geoparquet/latest/) is used by some providers.  |
+| **PUBLISH\#2** | A collection should have a full listing of all available granules in a standard format, preferably cloud optimized. For example, [STAC-geoparquet](https://stac-utils.github.io/stac-geoparquet/latest/) is used by some providers. |
 | **PUBLISH\#3** |  Granule data stored in the cloud should preferably be accessible in cloud-optimized formats, e.g. [Zarr](https://en.wikipedia.org/wiki/Zarr_(data_format)) or [Cloud-Optimized GeoTIFF (COG)](https://en.wikipedia.org/wiki/GeoTIFF).|
 | **PUBLISH\#4** | Granules should not be zipped when stored in the cloud, so that cloud optimized data formats can be leveraged. |
 | **PUBLISH\#5** | Where possible, cloud providers' standard interfaces should be used in preference to self-developed solutions, enabling interoperability of tools that work with that cloud provider. |
