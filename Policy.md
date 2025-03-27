@@ -20,7 +20,7 @@ Policy is one of the most important factors and forms the basis of interoperabil
 | **POL\#9** | **Data Procurement from third party:** Organizations planning to procure/outsource Earth Observation data, to possible extent should ensure that the data complies with CEOS recommendations, including those outlined in this handbook.|
 | **POL\#10** |**Data preservation:** Organizations should ensure that Earth observation data is archived and preserved according to [CEOS best practices](https://github.com/ceos-org/interoperability-handbook/blob/wgiss-59-discussions/Architecture.md).|
 | **POL\#11** |**Purge Alert:** Organisations should use the [purge alert service](https://ceos.org/ourwork/workinggroups/wgiss/preservation/data-purge-alert/) provided by CEOS WGISS before data and information removal from archives.|
-| **POL#15**	| Apply the FAIR principles to pursue data and metadata interoperability |
+| **POL#15** | Apply the FAIR principles to pursue data and metadata interoperability |
 
 ***
 [Previous](Quality.md) | [Table of contents](README.md) | [Next](README.md)
