@@ -24,7 +24,6 @@ services through the exploitation of standard protocols and the harmonizing of s
 | **DISC\#10** | Collection metadata should refer to the level of maturity with respect to the [WGISS Data Management and Stewardship Maturity Matrix](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/WGISS%20Data%20Management%20and%20Stewardship%20Maturity%20Matrix.pdf).|
 | **DISC\#11** | For facilitating discovery and access, data shall be organised in `collections` according to the principles outlined in the `WGISS Data Collections Management Practices White Paper`. |
 
-
 ## Data Access
 
 | **ID** | **Recommendations** |
