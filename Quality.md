@@ -3,7 +3,7 @@
 [Previous](Interface.md) | [Table of contents](README.md) | [Next](Policy.md)
 ***
 
-Quality informs users of the trustworthiness of Earth Observation data and products. Multiple Calibration and Validation (Cal/Val) groups/venues exist as forums for the exchange of information about understanding, expressing, and improving data quality, along with influencing the interoperability between multiple datasets and products.
+Quality informs users of the trustworthiness of Earth observation data and products. Multiple Calibration and Validation (Cal/Val) groups/venues exist as forums for the exchange of information about understanding, expressing, and improving data quality, along with influencing the interoperability between multiple datasets and products.
 
 ## Calibration and Validation
 
