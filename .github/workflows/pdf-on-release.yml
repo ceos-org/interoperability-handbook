@@ -1,0 +1,45 @@
+name: Build PDF on Release
+
+on:
+  release:
+    types: [published]
+  push:
+    branches:
+      - main
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra
+
+      - name: Install fonts
+        run: |
+            wget http://tug.org/fonts/getnonfreefonts/install-getnonfreefonts
+            sudo texlua install-getnonfreefonts
+            sudo getnonfreefonts --sys -a
+
+      - name: Install Python dependencies
+        run: |
+          pip install pypandoc click
+
+      - name: Build PDF
+        run: |
+          python scripts/generate_pdf.py --output interoperability-handbook-release.pdf --version ${{ github.event.release.tag_name || github.sha }}
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: interoperability-handbook-pdf
+          path: interoperability-handbook-release.pdf

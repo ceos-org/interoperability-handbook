@@ -12,7 +12,7 @@ Calibration is the process of quantitatively defining a system’s response to k
 ## Cal/Val Recommendations
 
 | **ID** | **Recommendations** |
-| :---- | :---- |
+| :-- | :------------ |
 | **CALVAL\#1** | Data providers should engage and participate in community calibration/validation groups, such as [CEOS WGCV](https://ceos.org/ourwork/workinggroups/wgcv/) (and its subgroups), [WMO GSICS](https://gsics.wmo.int/site/global-space-based-inter-calibration-system-gsics), [JACIE](https://www.usgs.gov/calval/jacie) and [VH-RODA](https://earth.esa.int/eogateway/events/vh-roda).  |
 | **CALVAL\#2** | The Measurand and Uncertainty to a reference (ideally SI traceable) of stated values should be included within all products, as they are key to communicating and understanding data quality. |
 | **CALVAL\#3** | All products should have associated quality indicators, to allow users to assess usability of the data for their applications. |

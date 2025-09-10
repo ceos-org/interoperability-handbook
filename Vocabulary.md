@@ -8,8 +8,9 @@ Semantics deal with general aspects of meaning and relationships between terms a
 
 This section highlights the essential role of semantics and vocabularies in the CEOS Interoperability Framework. It outlines key standards, best practices for implementing semantic interoperability, and methods for aligning domain-specific vocabularies. By establishing a shared semantic foundation, stakeholders can improve data exchange, integration, service compatibility, and automated reasoning, ensuring more effective collaboration in an increasingly interconnected digital geospatial ecosystem.
 
-| **ID** | **Semantic Recommendations**                                                                                                       |
-| :----- | :--------------------------------------------------------------------------------------------------------------------------------- |
+<!-- Note that the number of :-- is important for formatting the PDF -->
+| **ID** | **Semantic Recommendations** |
+| :-- | :------------ |
 | **SEM\#1** | Terms and definitions should be collected into an open Earth observation thesaurus, such as that provided by KCEO/CEOS through GitHub. |
 | **SEM\#2** | Capability should be provided to enable public comment and discussion on existing and new terms and definitions. |
 | **SEM\#3** | Enable version control and change management at the individual term level and link to historical and alternative definitions. |
@@ -20,7 +21,7 @@ This section highlights the essential role of semantics and vocabularies in the 
 Of central importance for increasing the interoperability within CEOS and across the entire geospatial domain will be a more harmonised and structured terminology. Providers and users of EO data and services will largely benefit if the definition and interpretation of terms is no longer renegotiated and amended each time projects are started, or new documents are drafted. A key finding of the terminology task force was that vocabularies should be developed as much as possible in an open and participatory way across the whole domain they are intended for. One of the main lessons learned by the CEOS terminology task force was that usability and acceptance of unified vocabularies will largely depend on consistent and comprehensive principles shared by all stakeholders and guiding their development.
 
 | **ID** | **Thesaurus Recommendations** |
-| :---- | :---- |
+| :-- | :------------ |
 | **THES\#1** | The terms used in the thesaurus should be consistent and divided into classes such as Base, Core, Controversial and High Impact. The ‘Base Terms’ should have cross community agreement and should not have circular or ambiguous definitions. The ‘Core Term’ should be using the ‘Base Term’ consistently and can be allowed to have minor tweaks with approval from the identified committee. The ‘Controversial Term’ should have qualifiers attached to them with links to discussions, which led to the association of the qualifier. The ‘High Impact Term’ should be approved by a specialist committee and should be linked to a document providing details of the term. |
 | **THES\#2** | The definition of a term may not contain the term itself nor other circular definitions (e.g., where term A is defined using term B and term B is defined using term A). A clear set of base terms should be used.  |
 | **THES\#3** | The terms used in the thesaurus should have clear and mappable relationships with other terms (parent, sibling, child). Overlaps between terms that are supposed to delineate more generic concepts (siblings) should be avoided or minimized. |

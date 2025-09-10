@@ -9,8 +9,9 @@ In order to guide and structure the overall Interoperability related activities 
 
 Each factor has several components and are summarized as below.
 
+<!-- Note that the number of :-- is important for formatting the PDF -->
 | Factor | Description |
-| :---- | :---- |
+| :-- | :------ |
 | **Vocabulary (Semantics)** | The (narrow) semantic aspect refers to the naming and defining terms and expression. It includes developing, harmonizing, and maintaining vocabularies, concepts, and schemata supporting provision, exchange, and analysis of data, information, and knowledge regarding Earth observation. It ensures that words and language are understood in the same way by all communicating parties |
 | **Architecture** | Architecture describes the organizational structure of concepts, processes, and assets, including data. It comprises of the structural aspects of models and standards that govern the collection, storage, archiving, documentation and publication of data |
 | **Interface (Accessibility)** | Data exchange protocols and application interfaces, from a consumption or user perspective. These provide the means necessary to search for collections, find and access data and information contained in those collections |

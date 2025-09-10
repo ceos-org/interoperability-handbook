@@ -8,10 +8,10 @@ jobs:
 
         steps:
         -   name: Checkout repository
-            uses: actions/checkout@v2
+            uses: actions/checkout@v4
 
         -   name: Lint markdown formatting
-            uses: DavidAnson/markdownlint-cli2-action@v19
+            uses: DavidAnson/markdownlint-cli2-action@v20
             with:
                 globs: '*.md'
                 config: .markdownlint.json

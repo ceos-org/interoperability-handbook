@@ -11,7 +11,7 @@ services through the exploitation of standard protocols and the harmonizing of s
 ## Data Discovery
 
 | **ID** | **Recommendations** |
-| :---- | :---- |
+| :-- | :------------ |
 | **DISC\#1** | Collection and granule discovery interfaces should comply with the [CEOS STAC Collection and Granule Discovery Best Practices](https://github.com/ceos-org/stac-collection-and-granule-discovery-best-practices/tree/v1.0.0) (preferred) or [CEOS OpenSearch Best Practices](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS%20OpenSearch%20Best%20Practice.pdf). |
 | **DISC\#2** | Service and tool discovery interfaces should comply with [CEOS Service Discovery Best Practice](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS-Service-Discovery-Best-Practices_V1.1.pdf). |
 | **DISC\#3** | Collection and granule metadata obtained via the discovery interfaces should advertise the existence of the corresponding file-level online data access and subfile or pixel-based access services and endpoints (e.g., OGC WCS, WMTS, WCPS, OGC API Maps, OGC API Tiles, etc.). |
@@ -26,7 +26,7 @@ services through the exploitation of standard protocols and the harmonizing of s
 ## Data Access
 
 | **ID** | **Recommendations** |
-| :---- | :---- |
+| :-- | :------------ |
 | **DACC\#1** |  Granule data stored in the cloud should be accessible directly via a web-based protocol, for example the S3 (Simple Storage Service) and HTTP(S). |
 | **DACC\#2** |  Data access should support file-level access and subfile or pixel-based access. Data download interfaces over HTTPS should support "Range Requests" to allow clients to request a portion of a file.  Typical use case: access to a portion of a [Cloud-Optimized GeoTIFF (COG)](https://cogeo.org/) file.|
 | **DACC\#3** |  In case a granule consists of many individual assets (files), it shall be possible to access each asset individually and it is recommended to provide access to all sub-components of a granule with a single request. |
@@ -34,7 +34,7 @@ services through the exploitation of standard protocols and the harmonizing of s
 ## Authentication and Authorization
 
 | **ID** | **Recommendations** |
-| :---- | :---- |
+| :-- | :------------ |
 | **AUTH\#1** | Authorization should be available at a file level for both human and machine-to-machine access. |
 | **AUTH\#2** | Authentication interfaces should comply with open standards, such as the [OpenID Connect](https://openid.net/developers/how-connect-works/) protocol. |
 | **AUTH\#3** | HTTPS requests for data access that require authorisation will support well known methods for both human and machine-to-machine interface, such as those specified in the [OpenAPI 3.0](https://swagger.io/docs/specification/v3_0/authentication/). |

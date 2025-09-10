@@ -8,7 +8,7 @@ Policy is a statement of intent, which provides guidance for implementation of p
 Policy is one of the most important factors and forms the basis of interoperability. Following are interoperability recommendations for the policy factor.
 
 | ID | Recommendations |
-| :---- | :---- |
+| :-- | :------------ |
 | **POL\#1**| Data providers should participate and engage in relevant community groups/events, such as CEOS, GEO and CGMS, and their respective working groups. Interoperability requires collaboration and coordination between all actors within the sector. |
 | **POL\#2**| Identify policies in your organization/country related to data and services and conduct periodic check/audit for compliance to these policies. Identify policies which may be barriers to interoperability of data and services and flag them for resolution. Ensure the policies are clearly communicated to stakeholders. |
 | **POL\#3** | **EO Capabilities:** Publish and periodically update information about present and planned Earth observation Satellites in online databases, preferably the [CEOS MIM Database](https://ceos.org/mim-database). This will help in planning and overall coordination among different EO stakeholders. |
