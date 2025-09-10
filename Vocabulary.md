@@ -13,7 +13,7 @@ This section highlights the essential role of semantics and vocabularies in the 
 | **SEM\#1** | Terms and definitions should be collected into an open Earth observation thesaurus, such as that provided by KCEO/CEOS through GitHub. |
 | **SEM\#2** | Capability should be provided to enable public comment and discussion on existing and new terms and definitions. |
 | **SEM\#3** | Enable version control and change management at the individual term level and link to historical and alternative definitions. |
-| **SEM\#4** | Use of project or document specific vocabularies should be discouraged e.g., in the form of ‘terms and definitions’ chapters. Source (via weblink), maintain, and develop all terms that serve or might serve in more than one context in the online, shared repository. |
+| **SEM\#4** | Use of project or document specific vocabularies should be discouraged e.g., in the form of ‘terms and definitions’ chapters. Source (via url), maintain, and develop all terms that serve or might serve in more than one context in the online, shared repository. |
 | **SEM\#5** | Community members should promote the common thesaurus, including through ISO/TC 211, [OGC](https://defs.opengis.net/prez/), WMO, GEO and other stakeholders in Earth System Sciences, to strive for domain wide adoption. |
 | **SEM\#6** | Common online repositories for abbreviations and acronyms should be used. Agreed metadata fields with unified and binding lists of options should be included. Keywords from controlled vocabularies that allow lookup of keyword information via Linked Data principles, e.g., HTTP URI dereferencing or SPARQL interfaces are preferred. The use of GCMD controlled keywords is encouraged. |
 
@@ -26,7 +26,7 @@ Of central importance for increasing the interoperability within CEOS and across
 | **THES\#3** | The terms used in the thesaurus should have clear and mappable relationships with other terms (parent, sibling, child). Overlaps between terms that are supposed to delineate more generic concepts (siblings) should be avoided or minimized. |
 | **THES\#4** | Definitions have to be kept unambiguous and short, and written in a form such that they can replace the term in a sentence. |
 | **THES\#5** | Explanations should be given in a separate ‘Notes’ sections, and Examples in a separate 'Examples' section. Both complement the definition, and should not be included as part of the main definition. |
-| **THES\#6** | Every definition should have an accompanying 'Sources' section, where all source documents are listed or link to register maintained by source is provided, wherever possible as weblinks. |
+| **THES\#6** | Every definition should have an accompanying 'Sources' section, where all source documents are listed or link to register maintained by source is provided, wherever possible as urls. |
 | **THES\#7** | Thesaurus terms should be version controlled at the individual term level.|
 | **THES\#8** | Where a term is deemed ‘controversial’ then contradictory definitions can be provided, but only with clear links to alternative definitions and explanations as to what context a term is used in.|
 

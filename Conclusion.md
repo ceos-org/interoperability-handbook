@@ -1,4 +1,4 @@
-# Conclusions 
+# Conclusions
 
 [Previous](Policy.md) | [Table of contents](README.md) | [Next](README.md)
 ***
@@ -19,7 +19,8 @@ Quality assurance is expanded through integration with CEOS WGCV, QA4EO, and tra
 **Policy**
 The policy section now includes open data licensing (e.g., CC BY 4.0), open-source software practices, and open science principles. It encourages alignment with GEO data sharing guidelines and the FAIR principles. The 2008 edition focused more on data exchange principles and metadata compliance, without addressing licensing or reproducibility.
 
-# Future Scope
+## Future Scope
+
 The Handbook Version 2.0 reflects a strategic shift from protocol-level interoperability to ecosystem-level interoperability. It recognizes that modern EO systems must support distributed, cloud-native, and user-driven architectures. The emphasis is on enabling seamless integration across agencies, platforms, and applications—rather than simply connecting catalogs or services.
 
 The CEOS Interoperability Handbook v2.0 is both a continuation and a transformation. It honors the legacy of the Version 1.0 by preserving its core principles—such as openness, standardization, and collaboration—while equipping the EO community with the tools and frameworks needed for the next generation of data systems.
