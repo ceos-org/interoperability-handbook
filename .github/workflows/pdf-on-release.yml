@@ -5,7 +5,7 @@ on:
     types: [published]
   push:
     branches:
-      - add-pdf-creator
+      - main
 
 jobs:
   build-pdf:

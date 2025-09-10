@@ -66,7 +66,7 @@ header-includes:
 \\color{{white}}
 \\includegraphics[width=0.4\\textwidth]{{{"images/ceos-logo-notext.png"}}} \\\\[1.5cm]
 {{\\Huge \\textbf{{Interoperability Handbook}}}} \\\\[1.5cm]
-{{\\large {version}}} \\\\[0.5cm]
+{{\\large Version: {version}}} \\\\[0.5cm]
 {{\\large \\today}}
 \\end{{center}}
 \\newpage
@@ -95,6 +95,12 @@ header-includes:
     )
     # Add page break before each top-level header
     combined_md = combined_md.replace("\n# ", "\n\\newpage\n# ")
+
+    # Add a final footnote with CC-BY license
+    combined_md += "\n\n---\n\n"
+    combined_md += (
+        "This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
+    )
 
     # Write to temp file
     with open("combined.md", "w", encoding="utf-8") as f:
