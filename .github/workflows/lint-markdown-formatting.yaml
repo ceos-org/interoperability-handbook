@@ -1,7 +1,12 @@
 name: Lint Markdown Formatting
 
-on: [push, pull_request]
-
+on:
+    push:
+        branches-ignore:
+            - main
+    pull_request:
+        branches:
+            - main
 jobs:
     lint-markdown:
         runs-on: ubuntu-latest
