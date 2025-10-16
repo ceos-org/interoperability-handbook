@@ -28,6 +28,7 @@ This Handbook is intended for use as a guide by different Space Agencies, New Sp
 The Handbook version 2.0 of the CEOS Interoperability Handbook represents a significant evolution from the original 2008 version 1.0. While the earlier handbook laid the groundwork for interoperable Earth Observation (EO) systems—focusing on metadata standards, catalog protocols, and service definitions, the new version responds to a transformed data landscape shaped by cloud-native architectures, open science, and global collaboration.
 
 The Handbook Version 2.0 aims to guide EO data providers, system architects, and policy stakeholders in building interoperable data and service infrastructures. It emphasizes modularity, openness, and machine-actionability, aligning with global initiatives such as the Group on Earth Observations (GEO), FAIR data principles, and open science mandates.
+
 In contrast, the 2008 edition focused on enabling interoperability through shared protocols (e.g., FTP, Z39.50), metadata formats (e.g., DIF, ISO 19115), and service taxonomies. It introduced foundational concepts such as the OAIS model for archiving, the CEOS Catalogue Interoperability Protocol (CIP), and the use of OpenDAP and WMS/WFS/WCS services.
 
 ***

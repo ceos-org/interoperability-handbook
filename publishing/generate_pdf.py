@@ -52,7 +52,6 @@ header-includes:
     - \\usepackage{{graphicx}}
     - \\usepackage{{array}}
     - \\usepackage{{xcolor}}
-    - \\usepackage{{uarial}}
     - \\renewcommand{{\\familydefault}}{{\\sfdefault}}
     - \\definecolor{{ceosblue}}{{RGB}}{{0,51,102}}
     - \\newcolumntype{{L}}{{>{{\\raggedright\\arraybackslash}}p{{0.1\\linewidth}}}}
@@ -97,7 +96,7 @@ header-includes:
     combined_md = combined_md.replace("\n# ", "\n\\newpage\n# ")
 
     # Add a final footnote with CC-BY license
-    combined_md += "\n\n---\n\n"
+    # combined_md += "\n\n---\n\n"
     combined_md += "This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
 
     # Write to temp file
@@ -106,6 +105,7 @@ header-includes:
 
     extra_args = [
         "--pdf-engine=xelatex",
+        "-V links-as-notes"
     ]
 
     pypandoc.convert_file(
