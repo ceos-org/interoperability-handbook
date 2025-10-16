@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install system dependencies
         run: |
@@ -26,9 +26,9 @@ jobs:
 
       - name: Install fonts
         run: |
-            wget http://tug.org/fonts/getnonfreefonts/install-getnonfreefonts
-            sudo texlua install-getnonfreefonts
-            sudo getnonfreefonts --sys -a
+          wget http://tug.org/fonts/getnonfreefonts/install-getnonfreefonts
+          sudo texlua install-getnonfreefonts
+          sudo getnonfreefonts --sys -a
 
       - name: Install Python dependencies
         run: |
@@ -36,13 +36,15 @@ jobs:
 
       - name: Build PDF
         run: |
-          python scripts/generate_pdf.py --output interoperability-handbook.pdf --version ${{ github.event.release.tag_name || github.sha }}
+          python publishing/generate_pdf.py \
+            --output publishing/interoperability-handbook.pdf \
+            --version ${{ github.event.release.tag_name || github.sha }}
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
           name: interoperability-handbook-pdf
-          path: interoperability-handbook.pdf
+          path: publishing/interoperability-handbook.pdf
 
       - name: Create Release Asset
         if: github.event_name == 'release'
@@ -51,6 +53,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: interoperability-handbook.pdf
           asset_name: interoperability-handbook.pdf
+          asset_path: publishing/interoperability-handbook.pdf
           asset_content_type: application/pdf

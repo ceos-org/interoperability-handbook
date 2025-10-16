@@ -19,7 +19,7 @@ DEFAULT_MD_FILES = [
 @click.command()
 @click.option(
     "--output",
-    default="interoperability-handbook.pdf",
+    default="publishing/interoperability-handbook.pdf",
     show_default=True,
     help="Output PDF filename",
 )
@@ -98,12 +98,10 @@ header-includes:
 
     # Add a final footnote with CC-BY license
     combined_md += "\n\n---\n\n"
-    combined_md += (
-        "This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
-    )
+    combined_md += "This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
 
     # Write to temp file
-    with open("combined.md", "w", encoding="utf-8") as f:
+    with open("publishing/combined.md", "w", encoding="utf-8") as f:
         f.write(combined_md)
 
     extra_args = [
@@ -111,7 +109,7 @@ header-includes:
     ]
 
     pypandoc.convert_file(
-        "combined.md", "pdf", outputfile=output, extra_args=extra_args
+        "publishing/combined.md", "pdf", outputfile=output, extra_args=extra_args
     )
     print(f"PDF created: {output}")
 
