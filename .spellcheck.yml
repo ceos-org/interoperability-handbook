@@ -2,10 +2,18 @@ matrix:
 - name: Markdown
   aspell:
     lang: en
+    d: en_US
+    ignore-case: true
+    ignore-accents: true
   dictionary:
     encoding: utf-8
+    wordlists:
+      - .wordlist.txt
   pipeline:
   - pyspelling.filters.markdown:
+      markdown_extensions:
+      - markdown.extensions.extra:
+  - pyspelling.filters.url:
   sources:
   - '**/*.md'
   default_encoding: utf-8

@@ -21,7 +21,7 @@ services through the exploitation of standard protocols and the harmonizing of s
 | **DISC\#7** | Resource metadata including keywords should link each keyword to its URI and to the appropriate thesaurus (i.e., controlled vocabularies). |
 | **DISC\#8** | Resource metadata should contain the persistent identifier (e.g., DOI) of the corresponding resource. |
 | **DISC\#9** | Collection metadata should refer to the level of maturity with respect to the [WGISS Data Management and Stewardship Maturity Matrix](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/WGISS%20Data%20Management%20and%20Stewardship%20Maturity%20Matrix.pdf). |
-| **DISC\#10** | For facilitating discovery and access, data shall be organised in collections according to the principles outlined in the [Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf). |
+| **DISC\#10** | For facilitating discovery and access, data shall be organized in collections according to the principles outlined in the [Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf). |
 
 ## Data Access
 
@@ -37,7 +37,7 @@ services through the exploitation of standard protocols and the harmonizing of s
 | :-- | :------------ |
 | **AUTH\#1** | Authorization should be available at a file level for both human and machine-to-machine access. |
 | **AUTH\#2** | Authentication interfaces should comply with open standards, such as the [OpenID Connect](https://openid.net/developers/how-connect-works/) protocol. |
-| **AUTH\#3** | HTTPS requests for data access that require authorisation will support well known methods for both human and machine-to-machine interface, such as those specified in the [OpenAPI 3.0](https://swagger.io/docs/specification/v3_0/authentication/). |
+| **AUTH\#3** | HTTPS requests for data access that require authorization will support well known methods for both human and machine-to-machine interface, such as those specified in the [OpenAPI 3.0](https://swagger.io/docs/specification/v3_0/authentication/). |
 
 ***
 [Previous](Architecture.md) | [Table of contents](README.md) | [Next](Quality.md)

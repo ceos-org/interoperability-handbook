@@ -10,14 +10,14 @@ The CEOS Interoperability Framework was developed to guide the evolution of this
 
 ## Purpose
 
-This handbook will help data providers enhance the interoperability of their data and services with those of other organisations, agencies, and countries by proposing standards and best practices in terminology, structure, formats, metadata, quality, and policy. It is intended to help avoid duplication of efforts, reduce costs, and improve the interoperability of EO data and services.
+This handbook will help data providers enhance the interoperability of their data and services with those of other organizations, agencies, and countries by proposing standards and best practices in terminology, structure, formats, metadata, quality, and policy. It is intended to help avoid duplication of efforts, reduce costs, and improve the interoperability of EO data and services.
 Interoperability also facilitates the integration of global EO data with other data sources, including geostatistics, model data, and forecasts. By combining these sources, users can gain a more comprehensive understanding of various phenomena, such as natural disasters, land use, and climate change at a global level.
 
-Furthermore, adaptation of interoperability recommendations as discussed in this handbook will facilitate data sharing among the scientific community, governments, international organisations and other stakeholders. It can assist in creating a common understanding among users with different backgrounds, interests, and needs. Finally, interoperability goes beyond data sharing.  It can foster collaboration and innovation by enabling the development of new applications, tools, and services that leverage EO data. Such advances are critical for addressing emerging challenges, such as the impacts of changes affecting the climate, natural disasters, water and food security.
+Furthermore, adaptation of interoperability recommendations as discussed in this handbook will facilitate data sharing among the scientific community, governments, international organizations and other stakeholders. It can assist in creating a common understanding among users with different backgrounds, interests, and needs. Finally, interoperability goes beyond data sharing.  It can foster collaboration and innovation by enabling the development of new applications, tools, and services that leverage EO data. Such advances are critical for addressing emerging challenges, such as the impacts of changes affecting the climate, natural disasters, water and food security.
 
 ## Scope
 
-CEOS Interoperability Handbook Version 2.0 intends to provide guidance to organisations for development of Interoperable Data and Services and help them in measuring their maturity level.  
+CEOS Interoperability Handbook Version 2.0 intends to provide guidance to organizations for development of Interoperable Data and Services and help them in measuring their maturity level.  
 
 ## Audience
 
