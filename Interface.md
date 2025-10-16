@@ -21,7 +21,7 @@ services through the exploitation of standard protocols and the harmonizing of s
 | **DISC\#7** | Resource metadata including keywords should link each keyword to its URI and to the appropriate thesaurus (i.e., controlled vocabularies). |
 | **DISC\#8** | Resource metadata should contain the persistent identifier (e.g., DOI) of the corresponding resource. |
 | **DISC\#9** | Collection metadata should refer to the level of maturity with respect to the [WGISS Data Management and Stewardship Maturity Matrix](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/WGISS%20Data%20Management%20and%20Stewardship%20Maturity%20Matrix.pdf). |
-| **DISC\#10** | For facilitating discovery and access, data shall be organised in collections according to the principles outlined in the `WGISS Data Collections Management Practices White Paper`. |
+| **DISC\#10** | For facilitating discovery and access, data shall be organised in collections according to the principles outlined in the [Shared Collection Lifecycle Management Principles for Earth Observation Data]([url](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)). |
 
 ## Data Access
 
