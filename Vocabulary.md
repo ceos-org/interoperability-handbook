@@ -11,7 +11,7 @@ This section highlights the essential role of semantics and vocabularies in the 
 <!-- Note that the number of :-- is important for formatting the PDF -->
 | **ID** | **Semantic Recommendations** |
 | :-- | :------------ |
-| **SEM\#1** | Terms and definitions should be collected into an open Earth observation thesaurus, such as that provided by KCEO/CEOS through GitHub. |
+| **SEM\#1** | Terms and definitions should be collected into the [CEOS Earth observation glossary](https://github.com/ceos-org/eo-glossary/) on GitHub. |
 | **SEM\#2** | Capability should be provided to enable public comment and discussion on existing and new terms and definitions. |
 | **SEM\#3** | Enable version control and change management at the individual term level and link to historical and alternative definitions. |
 | **SEM\#4** | Use of project or document specific vocabularies should be discouraged e.g., in the form of ‘terms and definitions’ chapters. Source (via url), maintain, and develop all terms that serve or might serve in more than one context in the online, shared repository. |
