@@ -105,7 +105,8 @@ header-includes:
 
     extra_args = [
         "--pdf-engine=xelatex",
-        "-V links-as-notes"
+        "--variable=links-as-notes:true",
+        "--variable=footnotes-pretty:true"
     ]
 
     pypandoc.convert_file(
