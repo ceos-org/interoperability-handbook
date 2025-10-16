@@ -31,7 +31,7 @@ The new version of the handbook is both a continuation and a transformation. It 
 
 ## Document source
 
-This document is managed in the GitHub repository at `https://github.com/ceos-org/interoperability-handbook`. 
+This document is managed in the [CEOS Interoperability Handbook GitHub repository](https://github.com/ceos-org/interoperability-handbook).
 
 ***
 [Previous](Policy.md) | [Table of contents](README.md) | [Next](README.md)
