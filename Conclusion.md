@@ -21,9 +21,9 @@ The policy section now includes open data licensing (e.g., CC BY 4.0), open-sour
 
 ## Future Scope
 
-The Handbook Version 2.0 reflects a strategic shift from protocol-level interoperability to ecosystem-level interoperability. It recognizes that modern EO systems must support distributed, cloud-native, and user-driven architectures. The emphasis is on enabling seamless integration across agencies, platforms, and applications—rather than simply connecting catalogs or services.
+The CEOS Interoperability Handbook Version 2.0 reflects a strategic shift from protocol-level interoperability to ecosystem-level interoperability. It recognizes that modern EO systems must support distributed, cloud-native, and user-driven architectures. The emphasis is on enabling seamless integration across agencies, platforms, and applications—rather than simply connecting catalogs or services.
 
-The CEOS Interoperability Handbook v2.0 is both a continuation and a transformation. It honors the legacy of the Version 1.0 by preserving its core principles—such as openness, standardization, and collaboration—while equipping the EO community with the tools and frameworks needed for the next generation of data systems.
+The new version of the handbook is both a continuation and a transformation. It honors the legacy of the previous version by preserving its core principles—such as openness, standardization, and collaboration—while equipping the EO community with the tools and frameworks needed for the next generation of data systems.
 
 **Interoperability Maturity Matrix** will be developed using the recommendations provided in this handbook. The Maturity Matrix will help users to measure the maturity of Interoperability of data and services in their organizations and will also allow them to monitor the interoperability implementation with time.
 
