@@ -1,0 +1,26 @@
+name: Check contents
+
+on:
+    push:
+        branches-ignore:
+            - main
+    pull_request:
+        branches:
+            - main
+jobs:
+    lint-markdown:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Lint markdown formatting
+              uses: DavidAnson/markdownlint-cli2-action@v20
+              with:
+                  globs: "*.md"
+                  config: .markdownlint.json
+            - name: Spellcheck
+              uses: rojopolis/spellcheck-github-actions@v0
+              with:
+                  task_name: Markdown
