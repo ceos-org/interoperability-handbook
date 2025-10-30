@@ -21,5 +21,16 @@ Enhancing Interoperability of data and services between different Earth Observat
 
 Content in this repository is accessible under the [CC-BY 4.0 license](LICENSE).
 
+## Contributors
+Overall Coordination (WGISS), Tom Sohre (USGS), Nitant Dube (ISRO), Libby Rose
+
+Factor Leads: 
+**Vocabulary** (LSI-VC) Peter Strobl (EU Commission)
+**Architecture** (SEO and WGISS) Alex Lith (Auspatious), Mirko Albani (ESA)
+**Interface** (WGISS) Damiano Guerrucci (ESA)
+**Quality** (WGCV) Cody Anderson (USGS), Medhavy Thankappan (GA)
+**Policy** (CEO, SEO, WGISS, WGCV)
+
+Public Review: OGC, CEOS COAST-VC, NASA, UKSA, UK NPL, DLR, NOAA
 ***
 [NEXT](Introduction.md)
