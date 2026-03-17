@@ -29,7 +29,7 @@ Overall Coordination (WGISS), Tom Sohre (USGS), Nitant Dube (ISRO), Libby Rose
 
 Factor Leads: 
 **Vocabulary** (LSI-VC) Peter Strobl (EU Commission)
-**Architecture** (SEO and WGISS) Alex Lith (Auspatious), Mirko Albani (ESA)
+**Architecture** (SEO and WGISS) @alexgleith (Auspatious), Mirko Albani (ESA)
 **Interface** (WGISS) Damiano Guerrucci (ESA)
 **Quality** (WGCV) Cody Anderson (USGS), Medhavy Thankappan (GA)
 **Policy** (CEO, SEO, WGISS, WGCV)
