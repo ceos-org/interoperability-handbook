@@ -20,6 +20,19 @@ You can [download a PDF of the current release (version 2.0.0) here](https://git
 - [**7. Policy**](Policy.md)
 - [**8. Conclusion and Future Scope**](Conclusion.md)
 
+## Contributing checks
+
+Pull requests run a markdown lint (markdownlint) and a spell check (pyspelling) in GitHub Actions. To run the same checks locally before committing:
+
+```bash
+brew install aspell        # or: sudo apt install aspell aspell-en
+pip install pre-commit
+pre-commit install         # run the checks automatically on each commit
+pre-commit run --all-files # run them on demand
+```
+
+Words the spell checker wrongly rejects (names, acronyms) go in `.wordlist.txt`.
+
 ## License
 
 Content in this repository is accessible under the [CC-BY 4.0 license](LICENSE).
