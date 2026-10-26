@@ -6,7 +6,7 @@
 Interfaces allow diversified resources within and across the organization to seamlessly communicate,
 discover and exchange data. Interfaces are realized in the form of services and follow standards.
 Interfaces enable data users to have easy and efficient ways of discovering and accessing data and associated
-services through the exploitation of standard protocols and the harmonizing of search and data retrieval processes
+services through the exploitation of standard protocols and the harmonizing of search and data retrieval processes.
 
 ## Data Discovery
 
@@ -27,7 +27,7 @@ services through the exploitation of standard protocols and the harmonizing of s
 
 | **ID** | **Recommendations** |
 | :-- | :------------ |
-| **DACC\#1** |  Granule data stored in the cloud should be accessible directly via a web-based protocol, for example the S3 (Simple Storage Service) and HTTP(S). |
+| **DACC\#1** |  Granule data stored in the cloud should be accessible directly via a web-based protocol, for example S3 (Simple Storage Service) or HTTP(S). |
 | **DACC\#2** |  Data access should support file-level access and subfile or pixel-based access. Data download interfaces over HTTPS should support "Range Requests" to allow clients to request a portion of a file.  Typical use case: access to a portion of a [Cloud-Optimized GeoTIFF (COG)](https://cogeo.org/) file.|
 | **DACC\#3** |  In case a granule consists of many individual assets (files), it shall be possible to access each asset individually and it is recommended to provide access to all sub-components of a granule with a single request. |
 
@@ -37,7 +37,7 @@ services through the exploitation of standard protocols and the harmonizing of s
 | :-- | :------------ |
 | **AUTH\#1** | Authorization should be available at a file level for both human and machine-to-machine access. |
 | **AUTH\#2** | Authentication interfaces should comply with open standards, such as the [OpenID Connect](https://openid.net/developers/how-connect-works/) protocol. |
-| **AUTH\#3** | HTTPS requests for data access that require authorization will support well known methods for both human and machine-to-machine interface, such as those specified in the [OpenAPI 3.0](https://swagger.io/docs/specification/v3_0/authentication/). |
+| **AUTH\#3** | HTTPS requests for data access that require authorization should support well-known methods for both human and machine-to-machine interface, such as those specified in the [OpenAPI 3.0](https://swagger.io/docs/specification/v3_0/authentication/). |
 
 ***
 [Previous](Architecture.md) | [Table of contents](README.md) | [Next](Quality.md)

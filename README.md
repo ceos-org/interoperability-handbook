@@ -4,7 +4,7 @@
 
 Enhancing Interoperability of data and services between different Earth Observation stakeholders
 
-**This document is CEOS Pleanry approved Version 2.0. Please use the [Discussion](https://github.com/ceos-org/interoperability-handbook/discussions) section
+**This document is CEOS Plenary approved Version 2.0. Please use the [Discussion](https://github.com/ceos-org/interoperability-handbook/discussions) section
 to provide your comments and feedback, and please raise any Actions under [Issues](https://github.com/ceos-org/interoperability-handbook/issues)**.
 
 You can [download a PDF of the current release (version 2.0.0) here](https://github.com/ceos-org/interoperability-handbook/releases/download/v2.0.0/interoperability-handbook.pdf).

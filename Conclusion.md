@@ -1,4 +1,4 @@
-# Conclusions
+# Conclusion
 
 [Previous](Policy.md) | [Table of contents](README.md) | [Next](README.md)
 ***
@@ -14,7 +14,7 @@ The architecture component is now divided into three layers: Preservation, Data 
 The version 2.0 modernizes data discovery and access by recommending STAC, OpenSearch, and OGC APIs. It discourages zipped data in cloud environments and promotes direct access via HTTP(S), S3, and byte-range requests. In contrast, the 2008 edition emphasized FTP, OpenDAP, and Z39.50, which are now considered legacy or limited in scalability.
 
 **Quality**
-Quality assurance is expanded through integration with CEOS WGCV, QA4EO, and traceable uncertainty metrics. The Version 1.0 recommends using CEOS-FRM, RadCalNet, and SARCalNet for calibration and validation. The Version 1.0 introduced Cal/Val concepts but lacked the infrastructure and community maturity now available.
+Quality assurance is expanded through integration with CEOS WGCV, QA4EO, and traceable uncertainty metrics. The Version 1.0 recommended using CEOS-FRM, RadCalNet, and SARCalNet for calibration and validation. The Version 1.0 introduced Cal/Val concepts but lacked the infrastructure and community maturity now available.
 
 **Policy**
 The policy section now includes open data licensing (e.g., CC BY 4.0), open-source software practices, and open science principles. It encourages alignment with GEO data sharing guidelines and the FAIR principles. The 2008 edition focused more on data exchange principles and metadata compliance, without addressing licensing or reproducibility.
